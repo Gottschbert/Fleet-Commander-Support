@@ -1,0 +1,5 @@
+star-citizen
+fleet-commander
+bug-tracker
+feature-requests
+community-support

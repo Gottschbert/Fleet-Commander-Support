@@ -1,0 +1,55 @@
+name: 💡 Feature request
+description: Suggest an improvement for Fleet Commander
+title: "[FEATURE] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests should ideally describe an actual fleet-planning or operation problem.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Operational problem
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current workflow
+      description: How do you handle this today?
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Fleet Commander behavior
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Where would this feature be used?
+      options:
+        - Fleet planning
+        - Live operation
+        - Crew coordination
+        - Ship database
+        - Sharing / Discord
+        - Mobile / Tablet
+        - Administration
+        - Other
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example scenario
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
