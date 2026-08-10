@@ -2,7 +2,7 @@
 
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
-> Website: **fleet-commander.net**  
+> Website: **https://www.fleet-commander.net/**  
 > Current public version: **0.10.27-beta**  
 > Source code: **Private / Closed Source**
 
