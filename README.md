@@ -3,10 +3,9 @@
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
 > Website: **https://www.fleet-commander.net/**  
-> Current public version: **0.10.28-beta**
+> Current public version: **0.10.28-beta**  
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
-> Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/
 
 ## What this repository is for
 
