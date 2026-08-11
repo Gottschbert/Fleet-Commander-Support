@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T17:50:00+02:00",
+  "updatedAt": "2026-08-11T20:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.39-beta",
+      "date": "2026-08-11",
+      "category": "improved",
+      "title": {
+        "de": "Stations-Kompaktansicht einzeilig",
+        "en": "Single-Line Compact Station View"
+      },
+      "changes": {
+        "de": [
+          "Die eingeklappte Stationsansicht im Fleet Tree bleibt jetzt unabhängig von der Anzahl der Stationstypen strikt einzeilig.",
+          "In der geschlossenen Ansicht werden weiterhin nur Stations-Emoji und Belegung X/X angezeigt.",
+          "Nur die aufgeklappte Detailansicht darf Stationsbeschriftungen auf mehrere Zeilen verteilen."
+        ],
+        "en": [
+          "The collapsed station view in the Fleet Tree now remains strictly single-line regardless of the number of station types.",
+          "The closed view continues to show only station emoji and occupancy X/X.",
+          "Only the expanded detail view may distribute station labels across multiple lines."
+        ]
+      }
+    },
+    {
+      "version": "0.10.38-beta",
+      "date": "2026-08-11",
+      "category": "added",
+      "title": {
+        "de": "Einklappbare Stationsdetails",
+        "en": "Collapsible Station Details"
+      },
+      "changes": {
+        "de": [
+          "Stationsprofile im Fleet Tree sind standardmäßig kompakt eingeklappt.",
+          "Die Grundansicht zeigt pro Station nur Emoji und aktuelle Belegung X/X.",
+          "Ein Klick auf STATIONS klappt die vollständigen Stationsnamen mit Belegung auf oder wieder ein.",
+          "Der Auf-/Zuklappzustand wird lokal im Browser gespeichert und verändert keine geteilten Fleet-Daten."
+        ],
+        "en": [
+          "Station profiles in the Fleet Tree are collapsed by default.",
+          "The compact view shows only each station emoji and current occupancy X/X.",
+          "Selecting STATIONS expands or collapses the full station labels with occupancy.",
+          "Expansion state is stored locally in the browser and does not modify shared fleet data."
+        ]
+      }
+    },
+    {
+      "version": "0.10.37-beta",
+      "date": "2026-08-11",
+      "category": "improved",
+      "title": {
+        "de": "Gezielter Fleet-Tree-Hover",
+        "en": "Targeted Fleet Tree Hover"
+      },
+      "changes": {
+        "de": [
+          "Der starke Amber-/Orange-Hover wurde von den Stationszeilen auf die tatsächlich interaktiven Schiff- und Spielerzeilen verlagert.",
+          "Schiffe und Crew-Spieler erhalten nun einen deutlich sichtbaren Amber-Hintergrund, eine linke Akzentkante und eine leichte Hervorhebung.",
+          "Stationszeilen reagieren nur noch mit einem sehr dezenten neutralen Hover und konkurrieren dadurch nicht mehr mit den klickbaren Einträgen.",
+          "Spielernamen bleiben im Normalzustand warmrot und wechseln beim Hover dezent in einen wärmeren Amber-/Rotton."
+        ],
+        "en": [
+          "Moved the strong amber/orange hover from station rows to the actual interactive ship and player rows.",
+          "Ships and crew players now receive a clearly visible amber background, left accent edge and subtle emphasis.",
+          "Station rows now use only a restrained neutral hover so they no longer compete with clickable entries.",
+          "Player names remain warm red normally and shift toward a warmer amber/red tone on hover."
+        ]
+      }
+    },
     {
       "version": "0.10.36-beta",
       "date": "2026-08-11",
