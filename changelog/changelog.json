@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-11T08:06:00+02:00",
+  "entries": [
+    {
+      "version": "0.10.30-beta",
+      "date": "2026-08-10",
+      "category": "fixed",
+      "title": {
+        "de": "Share-Link Import Fix",
+        "en": "Share Link Import Fix"
+      },
+      "changes": {
+        "de": [
+          "Kurze /join/ID-Links lesen die Session-ID jetzt direkt aus dem sichtbaren URL-Pfad und sind nicht mehr vom intern unsichtbaren Apache-Query-Parameter abhängig.",
+          "Bestehende ?share=ID-Links bleiben kompatibel.",
+          "Der verschlüsselte Langlink-Fallback überträgt nun auch die verwendete Kompressionsart, damit gzip-Sessions korrekt entschlüsselt werden.",
+          "Fehler beim Session-Import zeigen jetzt einen konkreten technischen Grund im System Log und Dialog an."
+        ],
+        "en": [
+          "Short /join/ID links now read the session ID directly from the visible URL path and no longer depend on an Apache query parameter that is invisible to JavaScript after an internal rewrite.",
+          "Existing ?share=ID links remain compatible.",
+          "The encrypted long-link fallback now carries its compression mode so gzip sessions can be decrypted correctly.",
+          "Session import failures now show the concrete technical reason in the System Log and dialog."
+        ]
+      }
+    },
+    {
+      "version": "0.10.29-beta",
+      "date": "2026-08-10",
+      "category": "improved",
+      "title": {
+        "de": "Kompakter Fleet-Tree-Kopf",
+        "en": "Compact Fleet Tree Header"
+      },
+      "changes": {
+        "de": [
+          "Event-/Operationsüberschrift im Fleet Tree um 2 px verkleinert.",
+          "Vertikalen Abstand zwischen Überschrift, Trenner und erstem Squadron deutlich reduziert.",
+          "Abstände innerhalb der Squadrons und Crew-Struktur bleiben unverändert."
+        ],
+        "en": [
+          "Reduced the Fleet Tree event/operation heading by 2 px.",
+          "Reduced vertical spacing between the heading, separator and first squadron.",
+          "Spacing inside squadrons and crew structure remains unchanged."
+        ]
+      }
+    },
+    {
+      "version": "0.10.28-beta",
+      "date": "2026-08-10",
+      "category": "technical",
+      "title": {
+        "de": "Externer Changelog",
+        "en": "External Changelog"
+      },
+      "changes": {
+        "de": [
+          "Der In-App-Changelog wurde aus app.js in data/changelog.json ausgelagert.",
+          "Release Notes können künftig geändert oder ergänzt werden, ohne die Kernlogik der App anzufassen.",
+          "Die technische APP_VERSION bleibt weiterhin in app.js und beschreibt den tatsächlich ausgelieferten App-Code.",
+          "Falls changelog.json nicht erreichbar ist, bleibt Fleet Commander funktionsfähig und zeigt lediglich einen Changelog-Ladefehler."
+        ],
+        "en": [
+          "The in-app changelog was moved out of app.js into data/changelog.json.",
+          "Release notes can now be changed or extended without modifying the application core.",
+          "The technical APP_VERSION remains in app.js and continues to identify the actual application code.",
+          "If changelog.json is unavailable, Fleet Commander remains functional and only shows a changelog loading error."
+        ]
+      }
+    },
+    {
+      "version": "0.10.27-beta",
+      "date": "2026-08-10",
+      "category": "improved",
+      "title": {
+        "de": "Bedienungsanleitung neu aufgebaut",
+        "en": "User Guide Rewrite"
+      },
+      "changes": {
+        "de": [
+          "DE/EN-Bedienungsanleitung vollständig für Erstnutzer neu strukturiert.",
+          "Schnellstart, Anzeigen verstehen sowie Funktionen & Sicherheit ergänzt.",
+          "KPIs, Einsatzstatus, CREW x/y, offene Stationen und Rollenmodell verständlich erklärt."
+        ],
+        "en": [
+          "Rebuilt the DE/EN User Guide for first-time users.",
+          "Added Quick Start, Understanding the Displays, and Functions & Safety.",
+          "Explained KPIs, readiness states, CREW x/y, open stations and the role model."
+        ]
+      }
+    },
+    {
+      "version": "0.10.26-beta",
+      "date": "2026-08-10",
+      "category": "improved",
+      "title": {
+        "de": "Stationsausrichtung",
+        "en": "Station Alignment"
+      },
+      "changes": {
+        "de": [
+          "Fortsetzungszeilen der Stationsliste nutzen eine echte feste Label-Spalte.",
+          "Lange Stationsprofile werden zusätzlich anhand ihrer Textlänge aufgeteilt.",
+          "Horizontales Scrollen bei großen Schiffen wurde reduziert."
+        ],
+        "en": [
+          "Continuation rows use a real fixed station-label column.",
+          "Long station profiles are also split based on text length.",
+          "Reduced horizontal scrolling for large multicrew ships."
+        ]
+      }
+    },
+    {
+      "version": "0.10.25-beta",
+      "date": "2026-08-10",
+      "category": "improved",
+      "title": {
+        "de": "Adaptive Zwei-Zeilen-Stationen",
+        "en": "Adaptive Two-Line Stations"
+      },
+      "changes": {
+        "de": [
+          "Kleine Stationsprofile bleiben kompakt inline.",
+          "Große Stationsprofile werden auf eigene, bei Bedarf zwei Zeilen verteilt."
+        ],
+        "en": [
+          "Small station profiles remain compact and inline.",
+          "Large station profiles use dedicated rows and can span two rows."
+        ]
+      }
+    },
+    {
+      "version": "0.10.24-beta",
+      "date": "2026-08-10",
+      "category": "fixed",
+      "title": {
+        "de": "Operational Metrics Sync",
+        "en": "Operational Metrics Sync"
+      },
+      "changes": {
+        "de": [
+          "Top-KPIs, Einsatzbereitschaft und Fleet Tree verwenden nach dem Ship-DB-Load denselben Datenstand.",
+          "Pilotenabdeckung und offene Stationen werden nach dem Laden der zentralen Schiffsdatenbank korrekt neu berechnet."
+        ],
+        "en": [
+          "Top KPIs, Mission Readiness and Fleet Tree now use the same data state after the ship DB loads.",
+          "Pilot coverage and open stations are recalculated correctly after the central ship database loads."
+        ]
+      }
+    },
+    {
+      "version": "0.10.23-beta",
+      "date": "2026-08-10",
+      "category": "improved",
+      "title": {
+        "de": "UI-Konsistenz & Einsatzstatus",
+        "en": "UI Consistency & Readiness"
+      },
+      "changes": {
+        "de": [
+          "Aktionsbuttons vereinheitlicht.",
+          "Top-KPIs auf Einsatzbereit, Piloten und Offene Stationen umgestellt.",
+          "Operations Readiness lesbarer gestaltet und den Begriff Zugewiesen vereinheitlicht."
+        ],
+        "en": [
+          "Standardized action buttons.",
+          "Top KPIs changed to Operational, Pilots and Open Stations.",
+          "Improved Mission Readiness readability and standardized Assigned terminology."
+        ]
+      }
+    },
+    {
+      "version": "0.10.22-beta",
+      "date": "2026-08-10",
+      "category": "fixed",
+      "title": {
+        "de": "Squad-Schutz & Rollen",
+        "en": "Squad Protection & Roles"
+      },
+      "changes": {
+        "de": [
+          "Beispieldaten löschen darf ALPHA und BETA nicht mehr entfernen.",
+          "Fallback-Rollenliste für Schiffe ohne gepflegtes Stationsprofil erweitert."
+        ],
+        "en": [
+          "Clear Sample Data no longer removes ALPHA or BETA.",
+          "Expanded fallback roles for ships without a curated station profile."
+        ]
+      }
+    },
+    {
+      "version": "0.10.21-beta",
+      "date": "2026-08-10",
+      "category": "fixed",
+      "title": {
+        "de": "Sichere Beispieldaten-Bereinigung",
+        "en": "Safe Sample Cleanup"
+      },
+      "changes": {
+        "de": [
+          "Beispieldaten werden selektiv entfernt, eigene Spieler, Squadrons, Schiffe und Events bleiben erhalten."
+        ],
+        "en": [
+          "Sample cleanup selectively removes demo content while preserving user-created players, squadrons, ships and events."
+        ]
+      }
+    },
+    {
+      "version": "0.10.20-beta",
+      "date": "2026-08-10",
+      "category": "fixed",
+      "title": {
+        "de": "Absolute Asset-Pfade",
+        "en": "Absolute Asset Routing"
+      },
+      "changes": {
+        "de": [
+          "Root-absolute Asset-Pfade und Cache-Busting beheben gemischte Assets bei /join/... Links."
+        ],
+        "en": [
+          "Root-absolute asset paths and cache busting fix mixed assets when opening /join/... links."
+        ]
+      }
+    },
+    {
+      "version": "0.10.19-beta",
+      "date": "2026-08-10",
+      "category": "added",
+      "title": {
+        "de": "Operations Readiness",
+        "en": "Operations Readiness"
+      },
+      "changes": {
+        "de": [
+          "Kompakter Einsatzbereitschafts-Block mit Status, Operational, Piloten, Zugewiesen, Offenen Stationen und Verfügbarem Personal.",
+          "Taktische Hinweise für fehlende Piloten, leere/teilbesetzte Schiffe und Überbuchung."
+        ],
+        "en": [
+          "Added compact Mission Readiness with status, Operational, Pilots, Assigned, Open Stations and Available personnel.",
+          "Added tactical advisories for missing pilots, empty/partial ships and overbooking."
+        ]
+      }
+    },
+    {
+      "version": "0.10.18-beta",
+      "date": "2026-08-10",
+      "category": "fixed",
+      "title": {
+        "de": "Short-Link Routing",
+        "en": "Short-Link Routing Fix"
+      },
+      "changes": {
+        "de": [
+          "Asset-Auflösung beim Einstieg über /join/<id> korrigiert."
+        ],
+        "en": [
+          "Corrected asset resolution when opening Fleet Commander through /join/<id>."
+        ]
+      }
+    },
+    {
+      "version": "0.10.17-beta",
+      "date": "2026-08-10",
+      "category": "added",
+      "title": {
+        "de": "Short Secure Sessions",
+        "en": "Short Secure Sessions"
+      },
+      "changes": {
+        "de": [
+          "Kurze verschlüsselte Session-Links hinzugefügt.",
+          "Server speichert nur Ciphertext; Schlüssel bleibt im URL-Fragment.",
+          "30 Tage Ablaufzeit, Größenlimits und Rate Limiting ergänzt."
+        ],
+        "en": [
+          "Added short encrypted session links.",
+          "The server stores ciphertext only; the key remains in the URL fragment.",
+          "Added 30-day expiry, size limits and rate limiting."
+        ]
+      }
+    },
+    {
+      "version": "0.10.16-beta",
+      "date": "2026-08-09",
+      "category": "fixed",
+      "title": {
+        "de": "Mobile System Log",
+        "en": "Mobile Log Containment"
+      },
+      "changes": {
+        "de": [
+          "System Log auf Mobilgeräten begrenzt und intern scrollbar gemacht."
+        ],
+        "en": [
+          "Constrained the mobile System Log and made it internally scrollable."
+        ]
+      }
+    },
+    {
+      "version": "0.10.15-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Discord Fleet Brief",
+        "en": "Discord Fleet Brief"
+      },
+      "changes": {
+        "de": [
+          "Discord Share als strukturiertes Markdown-Flottenbriefing neu aufgebaut."
+        ],
+        "en": [
+          "Rebuilt Discord Share as a structured Markdown fleet briefing."
+        ]
+      }
+    },
+    {
+      "version": "0.10.14-beta",
+      "date": "2026-08-09",
+      "category": "fixed",
+      "title": {
+        "de": "Tablet Scroll Lock",
+        "en": "Tablet Scroll Lock"
+      },
+      "changes": {
+        "de": [
+          "Android-/Opera-Rootscroll durch Visual-Viewport-Synchronisation behoben."
+        ],
+        "en": [
+          "Fixed Android/Opera root scrolling using visual viewport synchronization."
+        ]
+      }
+    },
+    {
+      "version": "0.10.13-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Responsive Workspace",
+        "en": "Responsive Workspace Polish"
+      },
+      "changes": {
+        "de": [
+          "Tablet-Landscape und untere System-Log-/Branding-Bereiche verbessert."
+        ],
+        "en": [
+          "Improved tablet landscape and lower System Log / branding areas."
+        ]
+      }
+    },
+    {
+      "version": "0.10.12-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Lokalisierung & Guide Audit",
+        "en": "Localization & Guide Audit"
+      },
+      "changes": {
+        "de": [
+          "DE/EN-Texte und Guide-Inhalte auf Konsistenz geprüft."
+        ],
+        "en": [
+          "Audited DE/EN UI text and guide content for consistency."
+        ]
+      }
+    },
+    {
+      "version": "0.10.11-beta",
+      "date": "2026-08-09",
+      "category": "added",
+      "title": {
+        "de": "Hybrid-Rollenmodell",
+        "en": "Hybrid Roles"
+      },
+      "changes": {
+        "de": [
+          "Physische Schiffsstationen und allgemeine Einsatzrollen kombiniert; Legacy-Rollen bleiben kompatibel."
+        ],
+        "en": [
+          "Combined physical ship stations with mission roles while preserving legacy role compatibility."
+        ]
+      }
+    },
+    {
+      "version": "0.10.10-beta",
+      "date": "2026-08-09",
+      "category": "added",
+      "title": {
+        "de": "Stationsrollen",
+        "en": "Station Roles"
+      },
+      "changes": {
+        "de": [
+          "Zentrale Stationsdefinitionen mit dem Crew Deployment verbunden."
+        ],
+        "en": [
+          "Connected central station definitions to Crew Deployment."
+        ]
+      }
+    },
+    {
+      "version": "0.10.9-beta",
+      "date": "2026-08-09",
+      "category": "added",
+      "title": {
+        "de": "Adaptive Tree-Stationen",
+        "en": "Adaptive Tree Stations"
+      },
+      "changes": {
+        "de": [
+          "Stations- und Kapazitätsinformationen in der Flottenübersicht ergänzt."
+        ],
+        "en": [
+          "Added station and capacity information to Fleet Overview."
+        ]
+      }
+    },
+    {
+      "version": "0.10.4-beta",
+      "date": "2026-08-09",
+      "category": "fixed",
+      "title": {
+        "de": "Selection Persistence",
+        "en": "Selection Persistence Fix"
+      },
+      "changes": {
+        "de": [
+          "Squadron-, Deployment- und Schiffsauswahl bleiben bei UI-Neuaufbau erhalten."
+        ],
+        "en": [
+          "Squadron, deployment and vehicle selections persist across UI rebuilds."
+        ]
+      }
+    },
+    {
+      "version": "0.10.1-beta",
+      "date": "2026-08-09",
+      "category": "fixed",
+      "title": {
+        "de": "Admin-Auswahl",
+        "en": "Admin Ship Selector Fix"
+      },
+      "changes": {
+        "de": [
+          "Echte Schiffsauswahl statt Browser-Datalist im Admin-Editor.",
+          "Gespeicherte Schiffe bleiben nach dem Speichern ausgewählt."
+        ],
+        "en": [
+          "Replaced the browser datalist with a dedicated ship selector in the Admin Editor.",
+          "Saved ships remain selected after saving."
+        ]
+      }
+    },
+    {
+      "version": "0.10.0-beta",
+      "date": "2026-08-09",
+      "category": "added",
+      "title": {
+        "de": "Zentrale Schiffsdatenbank",
+        "en": "Server Ship Database"
+      },
+      "changes": {
+        "de": [
+          "Zentrale serverseitige Schiffsdatenbank mit Stations-/Sitzplatzdefinitionen eingeführt.",
+          "Geschützten Admin-Editor ergänzt."
+        ],
+        "en": [
+          "Added a central server-side ship database with station/seat definitions.",
+          "Added a protected Admin Editor."
+        ]
+      }
+    },
+    {
+      "version": "0.9.7-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Rollenidentität",
+        "en": "Role Identity"
+      },
+      "changes": {
+        "de": [
+          "Rollen mit eigenen Icons und visueller Identität ausgestattet."
+        ],
+        "en": [
+          "Added distinct icons and visual identity for crew roles."
+        ]
+      }
+    },
+    {
+      "version": "0.9.6-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Fleet Tree Hierarchie",
+        "en": "Fleet Tree Hierarchy"
+      },
+      "changes": {
+        "de": [
+          "Visuelle Hierarchie zwischen Squadrons, Schiffen, Spielern und Rollen verbessert."
+        ],
+        "en": [
+          "Improved visual hierarchy between squadrons, ships, players and roles."
+        ]
+      }
+    },
+    {
+      "version": "0.9.5-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Neutraler Kontrast",
+        "en": "Neutral Contrast"
+      },
+      "changes": {
+        "de": [
+          "Cyan aus normalen Lesetexten reduziert und für echte Akzente reserviert."
+        ],
+        "en": [
+          "Reduced cyan in normal reading text and reserved it for true accents."
+        ]
+      }
+    },
+    {
+      "version": "0.9.4-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "Lesbarkeit",
+        "en": "Readability"
+      },
+      "changes": {
+        "de": [
+          "Kontrast, Typografie, Formulare und Lesbarkeit verbessert."
+        ],
+        "en": [
+          "Improved contrast, typography, forms and overall readability."
+        ]
+      }
+    },
+    {
+      "version": "0.9.3-beta",
+      "date": "2026-08-09",
+      "category": "improved",
+      "title": {
+        "de": "UX Feedback",
+        "en": "UX Feedback"
+      },
+      "changes": {
+        "de": [
+          "Info & Bedienungsanleitung öffnet beim ersten Besuch und merkt sich danach den Zustand."
+        ],
+        "en": [
+          "Info & User Guide opens on first visit and remembers its state."
+        ]
+      }
+    },
+    {
+      "version": "0.9.2-beta",
+      "date": "2026-08-09",
+      "category": "fixed",
+      "title": {
+        "de": "Logo-Persistenz",
+        "en": "Logo Persistence"
+      },
+      "changes": {
+        "de": [
+          "Eigene Header-/Orga-Logos bleiben nach Neuladen erhalten."
+        ],
+        "en": [
+          "Custom header / organization logos persist after reloading."
+        ]
+      }
+    },
+    {
+      "version": "0.9.1-beta",
+      "date": "2026-08-09",
+      "category": "fixed",
+      "title": {
+        "de": "Sidebar-Persistenz",
+        "en": "Sidebar Persistence"
+      },
+      "changes": {
+        "de": [
+          "Der eingeklappte Zustand der Desktop-Sidebar bleibt nach Neuladen erhalten."
+        ],
+        "en": [
+          "The collapsed desktop sidebar state persists after reload."
+        ]
+      }
+    },
+    {
+      "version": "0.9.0-beta",
+      "date": "2026-08-09",
+      "category": "added",
+      "title": {
+        "de": "Beta-Basis",
+        "en": "Beta Baseline"
+      },
+      "changes": {
+        "de": [
+          "Responsive Darstellung für Smartphone, Tablet und Desktop.",
+          "AES-256-GCM verschlüsselte Session-Freigabe.",
+          "Interaktive Flottenübersicht und klappbarer Info-/Guide-Bereich."
+        ],
+        "en": [
+          "Responsive smartphone, tablet and desktop layout.",
+          "AES-256-GCM encrypted session sharing.",
+          "Interactive Fleet Overview and collapsible information / guide area."
+        ]
+      }
+    },
+    {
+      "version": "Origins",
+      "date": "2026",
+      "category": "added",
+      "title": {
+        "de": "Portierung auf die Web-Plattform",
+        "en": "Migration to the Web Platform"
+      },
+      "changes": {
+        "de": [
+          "Fleet Commander wurde von der ursprünglichen Python-Desktop-Anwendung auf eine browserbasierte HTML-, CSS- und JavaScript-Plattform portiert.",
+          "Die bisherige Desktop-Oberfläche wurde als responsive Webanwendung neu aufgebaut.",
+          "Damit wurde die Grundlage für plattformunabhängigen Zugriff, mobile Nutzung und die weitere webbasierte Entwicklung geschaffen."
+        ],
+        "en": [
+          "Fleet Commander was migrated from the original Python desktop application to a browser-based HTML, CSS and JavaScript platform.",
+          "The former desktop interface was rebuilt as a responsive web application.",
+          "This established the foundation for platform-independent access, mobile use and continued web-based development."
+        ]
+      }
+    }
+  ]
+}

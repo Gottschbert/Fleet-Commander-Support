@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Fleet Commander public changelog and release history.">
+  <title>Fleet Commander · Changelog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">PUBLIC RELEASE HISTORY</p>
+        <h1>Fleet Commander</h1>
+        <p class="subtitle">Changelog · Development History</p>
+      </div>
+      <div class="controls" aria-label="Language">
+        <button type="button" id="lang-de" class="active">DE</button>
+        <button type="button" id="lang-en">EN</button>
+      </div>
+    </header>
+
+    <section class="statusline">
+      <span id="status-text">Changelog wird geladen …</span>
+      <span id="updated-at"></span>
+    </section>
+
+    <section id="changelog" class="timeline" aria-live="polite"></section>
+
+    <footer>
+      <span>Fleet Commander</span>
+      <span>Public Support & Release History</span>
+    </footer>
+  </main>
+  <script src="./changelog.js"></script>
+</body>
+</html>
