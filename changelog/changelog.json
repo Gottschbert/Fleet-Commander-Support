@@ -1,7 +1,101 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T08:06:00+02:00",
+  "updatedAt": "2026-08-11T15:23:00+02:00",
   "entries": [
+    {
+      "version": "0.10.34-beta",
+      "date": "2026-08-11",
+      "category": "added",
+      "title": {
+        "de": "Multi-Orga Roster Cache",
+        "en": "Multi-Organization Roster Cache"
+      },
+      "changes": {
+        "de": [
+          "RSI Organisations-Sync besitzt jetzt einen lokalen Browser-Cache pro Organisation mit Zeitstempel und 30-Tage-Aktualitätslogik.",
+          "Cache-Abfragen sind cyan markiert; Online-Abweichungen orange und bestätigte Online-/Cache-Übereinstimmungen grün.",
+          "Eine Onlineabfrage kann jederzeit über einen Schieberegler erzwungen werden; bei frischem Cache wird standardmäßig lokal geladen.",
+          "Importierte Spieler erhalten lokale Organisationsquellen, sodass mehrere Orgas nacheinander genutzt werden können.",
+          "Mit 'Orga aus lokaler DB entfernen' werden ausschließlich sicher entfernbar importierte Spieler gelöscht; manuelle, mehrfach verknüpfte oder zugewiesene Spieler bleiben erhalten."
+        ],
+        "en": [
+          "RSI Organization Sync now keeps a local browser cache per organization with timestamp and 30-day freshness logic.",
+          "Cache lookups are cyan; online differences are amber and confirmed online/cache matches are green.",
+          "An online lookup can be forced at any time with a toggle; a fresh local cache is used by default.",
+          "Imported players receive local organization provenance so multiple organizations can be used over time.",
+          "Remove org from local DB deletes only safely removable imported players; manual, multi-source or assigned players are preserved."
+        ]
+      }
+    },
+    {
+      "version": "0.10.33-beta",
+      "date": "2026-08-11",
+      "category": "fixed",
+      "title": {
+        "de": "RSI Sync Throttle Protection",
+        "en": "RSI Sync Throttle Protection"
+      },
+      "changes": {
+        "de": [
+          "RSI Organisations-Sync gegen ErrApiThrottled und HTTP-Rate-Limits gehärtet.",
+          "Seitenabrufe werden gedrosselt und bei temporärer Drosselung automatisch mit exponentiellem Backoff wiederholt.",
+          "Erfolgreiche Org-Abfragen werden serverseitig für 10 Minuten zwischengespeichert, um unnötige RSI-Abfragen zu vermeiden.",
+          "Bei einem temporären API-Fehler bleibt die letzte erfolgreiche Ergebnisansicht mit Kennzahlen und Mitgliederliste sichtbar."
+        ],
+        "en": [
+          "Hardened RSI Organization Sync against ErrApiThrottled and HTTP rate limits.",
+          "Page requests are paced and temporary throttling is retried automatically using exponential backoff.",
+          "Successful organization lookups are cached server-side for 10 minutes to avoid unnecessary RSI requests.",
+          "The last successful counters and member list remain visible if a temporary API error occurs."
+        ]
+      }
+    },
+    {
+      "version": "0.10.32-beta",
+      "date": "2026-08-11",
+      "category": "improved",
+      "title": {
+        "de": "RSI Roster Integration Polish",
+        "en": "RSI Roster Integration Polish"
+      },
+      "changes": {
+        "de": [
+          "RSI Organisations-Sync aus den Systemeinstellungen in den Bereich Spieler Registrierung verschoben.",
+          "Der Sync befindet sich nun zwischen manueller Spielerregistrierung und Bearbeiten / Datenbank.",
+          "DE/EN-Bedienungsanleitung um einen vollständigen Abschnitt zum RSI Organisations-Sync erweitert.",
+          "RSI Gesamt, Sichtbar, Neu, Vorhanden und Nicht gefunden sowie das sichere Importverhalten werden erklärt."
+        ],
+        "en": [
+          "Moved RSI Organization Sync from System Settings to Player Registration.",
+          "The sync now sits between manual player registration and Edit / Database.",
+          "Expanded the DE/EN user guide with a complete RSI Organization Sync section.",
+          "RSI total, Visible, New, Existing, Not found and the safe import behavior are now explained."
+        ]
+      }
+    },
+    {
+      "version": "0.10.31-beta",
+      "date": "2026-08-11",
+      "category": "added",
+      "title": {
+        "de": "RSI Organisations-Sync",
+        "en": "RSI Organization Sync"
+      },
+      "changes": {
+        "de": [
+          "Öffentlich sichtbare RSI-Organisationsmitglieder können über die Organisations-SID direkt in Fleet Commander geprüft werden.",
+          "Leere, unsichtbare und doppelte Handle-Einträge werden verworfen; sichtbare Handles werden alphabetisch sortiert.",
+          "Neue Mitglieder werden vor dem Import mit dem lokalen Crew-Register verglichen und nur auf ausdrücklichen Klick übernommen.",
+          "Bereits vorhandene und auf RSI nicht gefundene lokale Spieler werden nur angezeigt; es erfolgt keine automatische Löschung."
+        ],
+        "en": [
+          "Publicly visible RSI organization members can be checked directly in Fleet Commander using the organization SID.",
+          "Blank, invisible and duplicate handle entries are discarded; visible handles are sorted alphabetically.",
+          "New members are compared with the local crew registry and imported only after an explicit user action.",
+          "Existing and locally registered players not found on RSI are shown for information only and are never deleted automatically."
+        ]
+      }
+    },
     {
       "version": "0.10.30-beta",
       "date": "2026-08-10",
@@ -608,27 +702,6 @@
           "Responsive smartphone, tablet and desktop layout.",
           "AES-256-GCM encrypted session sharing.",
           "Interactive Fleet Overview and collapsible information / guide area."
-        ]
-      }
-    },
-    {
-      "version": "Origins",
-      "date": "2026",
-      "category": "added",
-      "title": {
-        "de": "Portierung auf die Web-Plattform",
-        "en": "Migration to the Web Platform"
-      },
-      "changes": {
-        "de": [
-          "Fleet Commander wurde von der ursprünglichen Python-Desktop-Anwendung auf eine browserbasierte HTML-, CSS- und JavaScript-Plattform portiert.",
-          "Die bisherige Desktop-Oberfläche wurde als responsive Webanwendung neu aufgebaut.",
-          "Damit wurde die Grundlage für plattformunabhängigen Zugriff, mobile Nutzung und die weitere webbasierte Entwicklung geschaffen."
-        ],
-        "en": [
-          "Fleet Commander was migrated from the original Python desktop application to a browser-based HTML, CSS and JavaScript platform.",
-          "The former desktop interface was rebuilt as a responsive web application.",
-          "This established the foundation for platform-independent access, mobile use and continued web-based development."
         ]
       }
     }
