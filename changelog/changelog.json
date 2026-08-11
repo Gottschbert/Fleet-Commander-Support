@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T15:23:00+02:00",
+  "updatedAt": "2026-08-11T17:50:00+02:00",
   "entries": [
+    {
+      "version": "0.10.36-beta",
+      "date": "2026-08-11",
+      "category": "fixed",
+      "title": {
+        "de": "Orga-Entfernung behält Cache",
+        "en": "Org Removal Preserves Cache"
+      },
+      "changes": {
+        "de": [
+          "Das Entfernen von Orga-Mitgliedern aus der Spielerliste löscht den lokalen Organisations-Cache nicht mehr.",
+          "Der Cache bleibt für spätere Events und einen erneuten Import derselben Organisation erhalten.",
+          "Button- und Bestätigungstexte wurden präzisiert, damit Spielerliste und Cache klar getrennt sind.",
+          "Nach dem Entfernen bleibt ein vorhandener Cache sichtbar und kann sofort wieder für einen Import genutzt werden."
+        ],
+        "en": [
+          "Removing organization members from the player list no longer deletes the local organization cache.",
+          "The cache remains available for later events and re-importing the same organization.",
+          "Button and confirmation wording now clearly separates player-list removal from cache lifecycle.",
+          "After removal, an existing cache remains visible and can immediately be reused for import."
+        ]
+      }
+    },
+    {
+      "version": "0.10.35-beta",
+      "date": "2026-08-11",
+      "category": "improved",
+      "title": {
+        "de": "Fleet Tree & Cache Status Polish",
+        "en": "Fleet Tree & Cache Status Polish"
+      },
+      "changes": {
+        "de": [
+          "Der RSI-Status unterscheidet jetzt klar zwischen einem lediglich vorhandenen Cache und einem tatsächlich aus Cache geladenen Ergebnis.",
+          "Bei aktivierter Onlineabfrage vor der Prüfung wird 'Cache vorhanden · Online geplant' angezeigt, ohne fälschlich einen Cache-Abruf zu suggerieren.",
+          "Fleet-Tree-Hover nutzt nun einen deutlicheren, aber zurückhaltenden Amber-/Orange-Akzent mit leichter Hintergrundtönung und schmaler Kante.",
+          "Spielernamen im Fleet Tree wurden von Flieder auf ein gedämpftes warmes Rot umgestellt."
+        ],
+        "en": [
+          "RSI status now clearly distinguishes between a cache merely being available and a result actually loaded from cache.",
+          "When online lookup is enabled before checking, the UI shows 'Cache available · Online planned' without implying a cache lookup.",
+          "Fleet Tree hover now uses a clearer but restrained amber/orange accent with a subtle background wash and narrow edge highlight.",
+          "Player names in the Fleet Tree were changed from lavender to a muted warm red."
+        ]
+      }
+    },
     {
       "version": "0.10.34-beta",
       "date": "2026-08-11",
