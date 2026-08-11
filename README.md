@@ -6,7 +6,6 @@ Official public support, bug-report and feature-request repository for **Fleet C
 > Current public version: **0.10.28-beta**
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
-> Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/
 
 ## What this repository is for
 
