@@ -3,7 +3,7 @@
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
 > Website: **https://www.fleet-commander.net/**  
-> Current public version: **0.10.30-beta**  
+> Current public version: **0.10.39-beta**  
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
 
@@ -79,7 +79,6 @@ Fleet Commander is currently in **beta** and is actively maintained.
 
 See:
 
-- [Public Changelog](CHANGELOG.md)
 - [Known Issues](KNOWN_ISSUES.md)
 - [Support Guide](SUPPORT.md)
 
