@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T12:30:00+02:00",
+  "updatedAt": "2026-08-23T13:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.45-beta",
+      "date": "2026-08-23",
+      "category": "improved",
+      "title": {
+        "de": "Verfügbare Spieler zuerst",
+        "en": "Available Players First"
+      },
+      "changes": {
+        "de": [
+          "Spielerauswahlen zeigen verfügbare Spieler jetzt vor bereits zugewiesenen Spielern.",
+          "Innerhalb beider Statusgruppen bleiben die Spielernamen alphabetisch sortiert.",
+          "Die Sortierung verändert die gespeicherte Spielerliste und bestehende Crew-Zuweisungen nicht."
+        ],
+        "en": [
+          "Player selectors now show available players before already assigned players.",
+          "Player names remain alphabetically sorted within both status groups.",
+          "The ordering does not modify the stored player list or existing crew assignments."
+        ]
+      }
+    },
     {
       "version": "0.10.44-beta",
       "date": "2026-08-23",
