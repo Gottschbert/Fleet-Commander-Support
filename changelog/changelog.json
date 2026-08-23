@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T11:07:58+02:00",
+  "updatedAt": "2026-08-23T12:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.43-beta",
+      "date": "2026-08-23",
+      "category": "added",
+      "title": {
+        "de": "Sprachpaket für vereinfachtes Chinesisch",
+        "en": "Simplified Chinese Language Pack"
+      },
+      "changes": {
+        "de": [
+          "Vereinfachtes Chinesisch (zh-CN / 简体中文) als dritte auswählbare Sprache ergänzt.",
+          "Alle 129 zentralen Oberflächentexte sowie sämtliche 14 Standard- und Legacy-Rollen wurden vollständig übersetzt.",
+          "Das Sprachmanifest, die LIVE-Variante, die GitHub-Dokumentation und die öffentliche Support-Seite wurden gemeinsam aktualisiert.",
+          "Englisch bleibt die sichere Rückfallsprache für künftig neu hinzukommende oder fehlende Übersetzungsschlüssel."
+        ],
+        "en": [
+          "Added Simplified Chinese (zh-CN / 简体中文) as the third selectable language.",
+          "Fully translated all 129 centralized interface strings and all 14 standard and legacy role labels.",
+          "Updated the language manifest, LIVE variant, GitHub documentation and public Support page together.",
+          "English remains the safe fallback for future or missing translation keys."
+        ]
+      }
+    },
     {
       "version": "0.10.42-beta",
       "date": "2026-08-23",

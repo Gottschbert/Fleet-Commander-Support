@@ -3,7 +3,7 @@
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
 > Website: **https://www.fleet-commander.net/**  
-> Current public version: **0.10.42-beta**  
+> Current public version: **0.10.43-beta**  
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
 
@@ -67,7 +67,7 @@ Fleet Commander currently includes:
 - Fleet Overview tactical tree
 - Mission Readiness metrics
 - Pilot coverage and Open Stations
-- Extensible JSON language-pack system with DE / EN included
+- Extensible JSON language-pack system with DE / EN / Simplified Chinese included
 - AES-256-GCM encrypted session sharing
 - Short secure session links
 - Compact Discord fleet brief export with Treeview hierarchy and localized timestamps
