@@ -3,7 +3,7 @@
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
 > Website: **https://www.fleet-commander.net/**  
-> Current public version: **0.10.39-beta**  
+> Current public version: **0.10.41-beta**  
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
 
@@ -70,7 +70,7 @@ Fleet Commander currently includes:
 - DE / EN interface
 - AES-256-GCM encrypted session sharing
 - Short secure session links
-- Discord fleet brief export
+- Compact Discord fleet brief export with Treeview hierarchy and localized timestamps
 - Responsive desktop, tablet and mobile interface
 
 ## Project status

@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T09:13:00+02:00",
+  "updatedAt": "2026-08-23T10:37:05+02:00",
   "entries": [
+    {
+      "version": "0.10.41-beta",
+      "date": "2026-08-23",
+      "category": "improved",
+      "title": {
+        "de": "Kompaktes Discord-Flottenbriefing",
+        "en": "Compact Discord Fleet Brief"
+      },
+      "changes": {
+        "de": [
+          "Der Discord-Export nutzt jetzt eine kompakte, an der Fleet Treeview orientierte Squadron-, Schiffs- und Crew-Hierarchie.",
+          "Rollen-Emojis, dekorative Trenner und Fettschrift bei Spielernamen wurden reduziert, um das Briefing ruhiger und schneller erfassbar zu machen.",
+          "Schiffe und Crew-Mitglieder werden mit durchgängigen Baumverbindungen zu klaren Einsatzgruppen zusammengefasst.",
+          "Die bisherige Versionsfußzeile wurde durch einen Discord-Timestamp ersetzt, der Datum, Uhrzeit und relative Aktualität lokal für jeden Nutzer darstellt.",
+          "Alle neuen Discord-Briefing-Texte und Systemmeldungen sind vollständig in den zentralen DE/EN-Sprachpaketen hinterlegt."
+        ],
+        "en": [
+          "Discord export now uses a compact squadron, ship and crew hierarchy modeled after the Fleet Treeview.",
+          "Role emoji, decorative separators and bold player names were reduced to make the brief calmer and faster to scan.",
+          "Ships and crew members are grouped into clear operational clusters using continuous tree connectors.",
+          "The previous version footer was replaced with a Discord timestamp that renders date, time and relative age locally for each user.",
+          "All new Discord briefing labels and system messages are fully represented in the central DE/EN language packages."
+        ]
+      }
+    },
     {
       "version": "0.10.40-beta",
       "date": "2026-08-23",
