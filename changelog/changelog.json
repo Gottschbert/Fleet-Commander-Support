@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T13:00:00+02:00",
+  "updatedAt": "2026-08-23T13:30:00+02:00",
   "entries": [
+    {
+      "version": "0.10.46-beta",
+      "date": "2026-08-23",
+      "category": "improved",
+      "title": {
+        "de": "Lesbarer Schnellstart und Guide",
+        "en": "More Readable Quick Start and Guide"
+      },
+      "changes": {
+        "de": [
+          "Guide-Fließtext auf eine zoomfreie Leseskala von 16 px mit größerer Zeilenhöhe angehoben.",
+          "Abschnittsüberschriften, Schrittüberschriften und Support-Hinweis besitzen jetzt eine klarere typografische Hierarchie.",
+          "Schnellstart in DE, EN und vereinfachtem Chinesisch fachlich überarbeitet: Header-/Dashboard-Einstellungen, optionaler RSI-Import und korrekte Interpretation der Teilbereitschaft sind deutlicher erklärt.",
+          "Die Größenanpassung ist ausschließlich auf About und Bedienungsanleitung begrenzt; Planungsoberfläche und Fleet Tree bleiben kompakt."
+        ],
+        "en": [
+          "Raised guide body text to a zoom-free 16 px reading scale with increased line height.",
+          "Section headings, step headings and the support note now have a clearer typographic hierarchy.",
+          "Revised Quick Start in DE, EN and Simplified Chinese to clarify header/dashboard settings, optional RSI import and the correct meaning of partial readiness.",
+          "Sizing changes are scoped to About and the User Guide; the planning interface and Fleet Tree remain compact."
+        ]
+      }
+    },
     {
       "version": "0.10.45-beta",
       "date": "2026-08-23",
