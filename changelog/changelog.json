@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T19:20:00+02:00",
+  "updatedAt": "2026-08-23T19:45:00+02:00",
   "entries": [
+    {
+      "version": "0.10.54-beta",
+      "date": "2026-08-23",
+      "category": "changed",
+      "title": {
+        "de": "Projektkontakt und Impressum aktualisiert",
+        "en": "Project Contact and Legal Notice Updated"
+      },
+      "changes": {
+        "de": [
+          "Das Impressum verwendet nun die offizielle Projektadresse support@fleet-commander.net statt einer privaten Kontaktadresse.",
+          "Der gesetzliche Verweis wurde von § 5 TMG auf den aktuellen § 5 DDG umgestellt.",
+          "Der Zurück-Link führt direkt auf die kanonische Startseite."
+        ],
+        "en": [
+          "The legal notice now uses the official project address support@fleet-commander.net instead of a private contact address.",
+          "The legal reference was updated from Section 5 TMG to the current Section 5 DDG.",
+          "The return link now points directly to the canonical homepage."
+        ]
+      }
+    },
     {
       "version": "0.10.53-beta",
       "date": "2026-08-23",

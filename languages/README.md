@@ -25,7 +25,7 @@ Deutsch: [Zur deutschen Anleitung](README.de.md)
   "englishName": "French",
   "locale": "fr-FR",
   "direction": "ltr",
-  "packVersion": "0.10.53-beta"
+  "packVersion": "0.10.54-beta"
 }
 ```
 
