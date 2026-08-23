@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T15:15:00+02:00",
+  "updatedAt": "2026-08-23T15:35:00+02:00",
   "entries": [
+    {
+      "version": "0.10.49-beta",
+      "date": "2026-08-23",
+      "category": "added",
+      "title": {
+        "de": "Automatisierte Quality-Gates",
+        "en": "Automated Quality Gates"
+      },
+      "changes": {
+        "de": [
+          "Ein neuer PowerShell-Prüfbefehl kontrolliert JavaScript- und JSON-Syntax, Sprachpaket-Parität, Versionsgleichstand sowie GitHub/LIVE-Synchronität.",
+          "Security-Kontrollen, lokale Frontend-Abhängigkeiten, versionierte Runtime-Dateien und Release-ZIPs werden automatisch geprüft.",
+          "Die Ausgabe unterscheidet klar zwischen BESTANDEN, WARNUNG und FEHLER und speichert zusätzlich einen lesbaren Bericht unter test-output/quality-gates.",
+          "Fehlende PHP-CLI und die noch ausstehende app.js-Modularisierung erscheinen bewusst als offene Hinweise statt als falsche Erfolgsmeldung.",
+          "Alle Referenzsprachpakete und die öffentliche Community-Vorlage tragen jetzt eine explizite packVersion zur Release-Zuordnung."
+        ],
+        "en": [
+          "A new PowerShell command checks JavaScript/JSON syntax, language-pack parity, version alignment and GitHub/LIVE synchronization.",
+          "Security controls, local frontend dependencies, tracked runtime files and release ZIP archives are verified automatically.",
+          "Output clearly distinguishes PASSED, WARNING and FAILED results and stores a readable report under test-output/quality-gates.",
+          "A missing PHP CLI and the pending app.js modularization are intentionally reported as open warnings rather than false passes.",
+          "All reference language packs and the public community template now carry an explicit packVersion for release alignment."
+        ]
+      }
+    },
     {
       "version": "0.10.48-beta",
       "date": "2026-08-23",

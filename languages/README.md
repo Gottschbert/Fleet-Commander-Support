@@ -24,7 +24,8 @@ Deutsch: [Zur deutschen Anleitung](README.de.md)
   "nativeName": "Français",
   "englishName": "French",
   "locale": "fr-FR",
-  "direction": "ltr"
+  "direction": "ltr",
+  "packVersion": "0.10.49-beta"
 }
 ```
 
@@ -41,6 +42,7 @@ Deutsch: [Zur deutschen Anleitung](README.de.md)
 - Ship names, player names, organization names and custom station names are user data and must not be translated.
 - Use `"direction": "rtl"` only for right-to-left languages such as Arabic or Hebrew.
 - A translation must contain every key from `en.json`.
+- Set `meta.packVersion` to the Fleet Commander version the pack was validated against.
 - Do not include personal data, session links, credentials or executable code.
 
 ## Validate with PowerShell

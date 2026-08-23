@@ -24,7 +24,8 @@ English: [Open the English guide](README.md)
   "nativeName": "Français",
   "englishName": "French",
   "locale": "fr-FR",
-  "direction": "ltr"
+  "direction": "ltr",
+  "packVersion": "0.10.49-beta"
 }
 ```
 
@@ -41,6 +42,7 @@ English: [Open the English guide](README.md)
 - Schiffs-, Spieler-, Organisations- und frei definierte Stationsnamen sind Benutzerdaten und dürfen nicht übersetzt werden.
 - `"direction": "rtl"` nur für rechtsläufige Sprachen wie Arabisch oder Hebräisch verwenden.
 - Eine Übersetzung muss jeden Schlüssel aus `en.json` enthalten.
+- `meta.packVersion` nennt die Fleet-Commander-Version, mit der das Paket geprüft wurde.
 - Keine personenbezogenen Daten, Session-Links, Zugangsdaten oder ausführbaren Code einfügen.
 
 ## Mit PowerShell prüfen

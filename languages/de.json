@@ -5,7 +5,8 @@
     "nativeName": "Deutsch",
     "englishName": "German",
     "locale": "de-DE",
-    "direction": "ltr"
+    "direction": "ltr",
+    "packVersion": "0.10.49-beta"
   },
   "translations": {
     "navHeader": "Menü",
