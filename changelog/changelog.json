@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T18:20:00+02:00",
+  "updatedAt": "2026-08-23T18:45:00+02:00",
   "entries": [
+    {
+      "version": "0.10.52-beta",
+      "date": "2026-08-23",
+      "category": "added",
+      "title": {
+        "de": "Verbindliche Release- und Code-Review-Freigabe",
+        "en": "Binding Release and Code Review Decision"
+      },
+      "changes": {
+        "de": [
+          "Die Quality-Gates erzeugen zusätzlich einen maschinenlesbaren JSON-Bericht für nachgelagerte Freigabeprüfungen.",
+          "Ein neuer Release-Review-Befehl verbindet automatische Prüfungen mit einer bestätigten manuellen Checkliste.",
+          "Jeder Review endet eindeutig mit BESTANDEN, BLOCKIERT oder BEWUSST AKZEPTIERTES RISIKO.",
+          "Fehler können niemals übergangen werden; Warnungen benötigen einen benannten Prüfer und eine konkrete schriftliche Begründung.",
+          "Developer Handbook und eine eigenständige Anfänger-Checkliste dokumentieren den vollständigen Ablauf."
+        ],
+        "en": [
+          "Quality gates now also generate a machine-readable JSON report for downstream release decisions.",
+          "A new release-review command combines automated checks with a confirmed manual checklist.",
+          "Every review ends explicitly as PASSED, BLOCKED or CONSCIOUSLY ACCEPTED RISK.",
+          "Failures can never be bypassed; warnings require a named reviewer and a concrete written reason.",
+          "The Developer Handbook and a dedicated beginner-friendly checklist document the complete workflow."
+        ]
+      }
+    },
     {
       "version": "0.10.51-beta",
       "date": "2026-08-23",

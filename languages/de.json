@@ -6,7 +6,7 @@
     "englishName": "German",
     "locale": "de-DE",
     "direction": "ltr",
-    "packVersion": "0.10.51-beta"
+    "packVersion": "0.10.52-beta"
   },
   "translations": {
     "navHeader": "Menü",
