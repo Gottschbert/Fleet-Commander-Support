@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T15:35:00+02:00",
+  "updatedAt": "2026-08-23T18:20:00+02:00",
   "entries": [
+    {
+      "version": "0.10.51-beta",
+      "date": "2026-08-23",
+      "category": "fixed",
+      "title": {
+        "de": "Einheitlicher Logo-Fallback",
+        "en": "Consistent Logo Fallback"
+      },
+      "changes": {
+        "de": [
+          "Beide Logo-Positionen verwenden ohne eigenes Organisationslogo jetzt einheitlich das pulsierende Fadenkreuz.",
+          "Nach dem Einbinden eines eigenen Logos werden beide Fallback-Icons zuverlässig ausgeblendet, auch wenn Icon-Bibliotheken eigene display-Regeln setzen.",
+          "Die Sichtbarkeit wird zusätzlich über das native hidden-Attribut abgesichert und das Stylesheet erhält eine eindeutige Logo-Regel."
+        ],
+        "en": [
+          "Both logo positions now consistently use the pulsing crosshair when no custom organization logo is configured.",
+          "After a custom logo is loaded, both fallback icons are reliably hidden even when icon libraries provide their own display rules.",
+          "Visibility is additionally enforced through the native hidden attribute and an explicit logo stylesheet rule."
+        ]
+      }
+    },
+    {
+      "version": "0.10.50-beta",
+      "date": "2026-08-23",
+      "category": "changed",
+      "title": {
+        "de": "Modularisierung – Phase 1",
+        "en": "Modularization – Phase 1"
+      },
+      "changes": {
+        "de": [
+          "Die eingebetteten Sprach-Fallbacks und Rollenmetadaten wurden aus app.js in ein eigenes i18n-Datenmodul ausgelagert.",
+          "Sicherheitsrelevante Zustandsvalidierung und verschlüsselte Session-Codecs liegen nun in getrennten, klar abgegrenzten Modulen.",
+          "Schnellstart und Bedienungsanleitung werden aus einem eigenen Guide-Modul geladen, ohne Darstellung oder Inhalt zu verändern.",
+          "app.js wurde von 5.283 auf rund 4.000 Zeilen reduziert; Zustand, Speicherformat und Share-Kompatibilität bleiben unverändert.",
+          "Die Quality-Gates prüfen ab sofort alle JavaScript-Module sowie deren vollständige GitHub/LIVE-Synchronität."
+        ],
+        "en": [
+          "Embedded language fallbacks and role metadata were extracted from app.js into a dedicated i18n data module.",
+          "Security-sensitive state validation and encrypted session codecs now live in separate, clearly bounded modules.",
+          "Quick Start and operating-guide content is loaded from a dedicated guide module without changing its presentation or content.",
+          "app.js was reduced from 5,283 to roughly 4,000 lines while state, storage format and share compatibility remain unchanged.",
+          "Quality gates now check every JavaScript module and verify complete GitHub/LIVE module synchronization."
+        ]
+      }
+    },
     {
       "version": "0.10.49-beta",
       "date": "2026-08-23",
