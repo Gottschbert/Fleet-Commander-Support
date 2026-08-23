@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T12:00:00+02:00",
+  "updatedAt": "2026-08-23T12:30:00+02:00",
   "entries": [
+    {
+      "version": "0.10.44-beta",
+      "date": "2026-08-23",
+      "category": "fixed",
+      "title": { "de": "Chinesische Übersetzung vervollständigt", "en": "Completed Chinese Translation" },
+      "changes": {
+        "de": ["Operationsstatus, Einsatzbereitschaft, Kennzahlen, taktische Hinweise und Personalstatus vollständig auf vereinfachtes Chinesisch umgestellt.", "About-Bereich und vollständige Bedienungsanleitung einschließlich Schnellstart, Anzeigen, RSI-Sync sowie Funktionen und Sicherheit übersetzt.", "Flottenbaum-Bezeichnungen, Bereitschaftsstatus, Kapazitätsanzeige, Stationsdetails, Tooltips und bekannte Standardstationen lokalisiert."],
+        "en": ["Localized Operations Status, Mission Readiness, metrics, tactical advisories and personnel status in Simplified Chinese.", "Translated the About section and complete user guide, including Quick Start, display explanations, RSI Sync, functions and safety.", "Localized Fleet Tree labels, readiness states, capacity display, station details, tooltips and known standard stations."]
+      }
+    },
     {
       "version": "0.10.43-beta",
       "date": "2026-08-23",
