@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T10:37:05+02:00",
+  "updatedAt": "2026-08-23T11:07:58+02:00",
   "entries": [
+    {
+      "version": "0.10.42-beta",
+      "date": "2026-08-23",
+      "category": "added",
+      "title": {
+        "de": "Erweiterbares Sprachpaket-System",
+        "en": "Extensible Language Pack System"
+      },
+      "changes": {
+        "de": [
+          "Die bisherigen DE/EN-Schaltflächen wurden durch ein zugängliches Sprache/Language-Dropdown ersetzt.",
+          "Verfügbare Sprachen werden aus languages/manifest.json geladen; Übersetzungen liegen als eigenständige JSON-Sprachpakete vor.",
+          "Neue Sprachen können durch eine zusätzliche Sprachdatei und einen Manifest-Eintrag ergänzt werden, ohne die zentrale UI-Logik umzubauen.",
+          "Fehlende Übersetzungsschlüssel fallen sicher auf Englisch zurück; eingebettete DE/EN-Notfallpakete erhalten die Kernoberfläche auch bei fehlendem Dateizugriff.",
+          "Locale und Schreibrichtung werden pro Sprache berücksichtigt, einschließlich lokalisierter Datums- und Uhrzeitanzeige sowie optionalem RTL-Modus.",
+          "Beim ersten Start wird eine unterstützte Browsersprache automatisch gewählt; eine spätere manuelle Auswahl bleibt dauerhaft erhalten.",
+          "Eine anfängerfreundliche Anleitung im Languages-Ordner beschreibt Erstellung, Registrierung und JSON-Prüfung neuer Sprachpakete."
+        ],
+        "en": [
+          "Replaced the previous DE/EN buttons with an accessible Language dropdown.",
+          "Available languages are loaded from languages/manifest.json and translations are stored in standalone JSON language packs.",
+          "New languages can be added with one language file and one manifest entry without restructuring the central UI logic.",
+          "Missing translation keys safely fall back to English; embedded DE/EN emergency packs keep the core interface usable if language files cannot be fetched.",
+          "Locale and writing direction are applied per language, including localized date/time output and optional RTL mode.",
+          "On first launch, a supported browser language is selected automatically; any later manual selection remains persistent.",
+          "A beginner-friendly guide in the Languages folder explains how to create, register and validate additional language packs."
+        ]
+      }
+    },
     {
       "version": "0.10.41-beta",
       "date": "2026-08-23",

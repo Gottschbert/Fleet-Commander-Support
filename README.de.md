@@ -5,7 +5,7 @@ Offizielles öffentliches Support-, Bugreport- und Feature-Request-Repository f�
 🌐 Sprache: [English](README.md) | **Deutsch**
 
 > Website: **https://www.fleet-commander.net/**  
-> Aktuelle öffentliche Version: **0.10.41-beta**  
+> Aktuelle öffentliche Version: **0.10.42-beta**  
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Quellcode: **Privat / Closed Source**
 
@@ -69,7 +69,7 @@ Fleet Commander umfasst derzeit unter anderem:
 - taktische Fleet-Overview-Baumansicht
 - Mission-Readiness-Kennzahlen
 - Pilot Coverage und Open Stations
-- deutsche / englische Benutzeroberfläche
+- erweiterbares JSON-Sprachpaket-System mit enthaltenem DE / EN
 - AES-256-GCM-verschlüsselte Session-Freigabe
 - kurze sichere Session-Links
 - kompakter Discord-Flottenbriefing-Export mit Treeview-Hierarchie und lokalisierten Zeitstempeln
