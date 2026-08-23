@@ -1,7 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T18:45:00+02:00",
+  "updatedAt": "2026-08-23T19:20:00+02:00",
   "entries": [
+    {
+      "version": "0.10.53-beta",
+      "date": "2026-08-23",
+      "category": "changed",
+      "title": {
+        "de": "SEO und Google-Indexierung abgeschlossen",
+        "en": "SEO and Google Indexing Completed"
+      },
+      "changes": {
+        "de": [
+          "Die Startseite besitzt nun einen aussagekräftigen Suchergebnis-Titel, eine Meta-Beschreibung, Robots-Anweisungen und eine eindeutige kanonische WWW-Adresse.",
+          "Open-Graph- und Twitter-Metadaten verbessern die Vorschau beim Teilen der Website.",
+          "Strukturierte JSON-LD-Daten beschreiben Fleet Commander als mehrsprachige kostenlose Webanwendung und Website.",
+          "HTTP, Nicht-WWW und /index.html werden serverseitig auf die kanonische HTTPS-WWW-Startseite vereinheitlicht.",
+          "robots.txt und sitemap.xml enthalten nur die gewünschte öffentliche Indexierungsfläche; interne Bereiche und Session-Links bleiben ausgeschlossen.",
+          "Ein neues Quality-Gate prüft Canonical, Metadaten, JSON-LD, robots.txt, Sitemap und Host-Weiterleitung automatisch."
+        ],
+        "en": [
+          "The homepage now has a descriptive search title, meta description, robots directives and one canonical WWW address.",
+          "Open Graph and Twitter metadata improve website sharing previews.",
+          "Structured JSON-LD describes Fleet Commander as a multilingual free web application and website.",
+          "HTTP, non-WWW and /index.html are consolidated server-side onto the canonical HTTPS WWW homepage.",
+          "robots.txt and sitemap.xml expose only the intended public indexing surface while internal areas and session links remain excluded.",
+          "A new quality gate automatically checks canonical metadata, JSON-LD, robots.txt, sitemap and host redirects."
+        ]
+      }
+    },
     {
       "version": "0.10.52-beta",
       "date": "2026-08-23",
