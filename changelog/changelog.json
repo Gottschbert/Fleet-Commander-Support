@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T14:00:00+02:00",
+  "updatedAt": "2026-08-23T15:15:00+02:00",
   "entries": [
+    {
+      "version": "0.10.48-beta",
+      "date": "2026-08-23",
+      "category": "fixed",
+      "title": {
+        "de": "Release-Härtung nach Funktions- und Security-Audit",
+        "en": "Release Hardening After Functional and Security Audit"
+      },
+      "changes": {
+        "de": [
+          "Manifest-Sprachen wie vereinfachtes Chinesisch bleiben nach einem Reload erhalten; fehlerhafte oder fehlende Sprachpakete erhalten einen konsistenten Fallback.",
+          "Importierte Flottenzustände werden vor dem Speichern vollständig, rekursiv und mit festen Größenlimits validiert; beschädigte Session-Links können den lokalen Zustand nicht mehr vergiften.",
+          "Verschlüsselte und komprimierte Freigaben besitzen nun feste Eingabe-, Klartext- und Dekompressionslimits gegen speicherintensive Payloads.",
+          "Der öffentliche RSI-Sync ist durch IP- und Global-Limits, eine Parallelitätsgrenze sowie feste Seiten- und Mitgliederbudgets geschützt.",
+          "Tailwind, Font Awesome, Lucide und die Projektschriften werden fest versioniert lokal ausgeliefert; die Oberfläche benötigt zur Laufzeit keine externen CDN-Skripte oder Google Fonts mehr.",
+          "Login- und Share-Rate-Limiter arbeiten bei Dateifehlern geschlossen; globale Security-Header und sichere reine Textausgabe für Community-Übersetzungen wurden ergänzt.",
+          "Discord-Statusbezeichnungen und Zeichenzähler sind jetzt Teil der Sprachpakete und in DE, EN sowie vereinfachtem Chinesisch lokalisiert."
+        ],
+        "en": [
+          "Manifest languages such as Simplified Chinese now survive reloads, while missing or invalid packs resolve to a consistent loaded fallback.",
+          "Imported fleet state is recursively validated with fixed limits before it is persisted, preventing malformed session links from poisoning local application state.",
+          "Encrypted and compressed shares now enforce encoded-input, plaintext and decompression limits against memory-intensive payloads.",
+          "The public RSI Sync is protected by per-IP and global limits, a concurrency ceiling, and fixed page/member budgets.",
+          "Tailwind, Font Awesome, Lucide and project fonts are now pinned and served locally, removing runtime CDN scripts and Google Fonts dependencies.",
+          "Login and share rate limiters fail closed on storage errors; global security headers and safe plain-text rendering for community translations were added.",
+          "Discord readiness labels and character counts are now language-pack entries localized in DE, EN and Simplified Chinese."
+        ]
+      }
+    },
     {
       "version": "0.10.47-beta",
       "date": "2026-08-23",
@@ -73,10 +102,21 @@
       "version": "0.10.44-beta",
       "date": "2026-08-23",
       "category": "fixed",
-      "title": { "de": "Chinesische Übersetzung vervollständigt", "en": "Completed Chinese Translation" },
+      "title": {
+        "de": "Chinesische Übersetzung vervollständigt",
+        "en": "Completed Chinese Translation"
+      },
       "changes": {
-        "de": ["Operationsstatus, Einsatzbereitschaft, Kennzahlen, taktische Hinweise und Personalstatus vollständig auf vereinfachtes Chinesisch umgestellt.", "About-Bereich und vollständige Bedienungsanleitung einschließlich Schnellstart, Anzeigen, RSI-Sync sowie Funktionen und Sicherheit übersetzt.", "Flottenbaum-Bezeichnungen, Bereitschaftsstatus, Kapazitätsanzeige, Stationsdetails, Tooltips und bekannte Standardstationen lokalisiert."],
-        "en": ["Localized Operations Status, Mission Readiness, metrics, tactical advisories and personnel status in Simplified Chinese.", "Translated the About section and complete user guide, including Quick Start, display explanations, RSI Sync, functions and safety.", "Localized Fleet Tree labels, readiness states, capacity display, station details, tooltips and known standard stations."]
+        "de": [
+          "Operationsstatus, Einsatzbereitschaft, Kennzahlen, taktische Hinweise und Personalstatus vollständig auf vereinfachtes Chinesisch umgestellt.",
+          "About-Bereich und vollständige Bedienungsanleitung einschließlich Schnellstart, Anzeigen, RSI-Sync sowie Funktionen und Sicherheit übersetzt.",
+          "Flottenbaum-Bezeichnungen, Bereitschaftsstatus, Kapazitätsanzeige, Stationsdetails, Tooltips und bekannte Standardstationen lokalisiert."
+        ],
+        "en": [
+          "Localized Operations Status, Mission Readiness, metrics, tactical advisories and personnel status in Simplified Chinese.",
+          "Translated the About section and complete user guide, including Quick Start, display explanations, RSI Sync, functions and safety.",
+          "Localized Fleet Tree labels, readiness states, capacity display, station details, tooltips and known standard stations."
+        ]
       }
     },
     {

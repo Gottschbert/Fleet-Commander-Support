@@ -71,6 +71,10 @@
     "discordTimestamp": "更新时间",
     "discordCopyLog": "Discord 舰队简报已复制",
     "discordCopyError": "错误：无法复制 Discord 舰队简报。",
+    "discordStatusEmpty": "空舰",
+    "discordStatusPartial": "部分就绪",
+    "discordStatusOperational": "可执行任务",
+    "discordCharacters": "字符",
     "logoHover": "更换徽标",
     "guideSummary": "信息与使用指南",
     "guideToggle": "打开",
@@ -155,4 +159,3 @@
     "Ground Force": "地面部队"
   }
 }
-
