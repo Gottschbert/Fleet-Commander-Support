@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T13:30:00+02:00",
+  "updatedAt": "2026-08-23T14:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.47-beta",
+      "date": "2026-08-23",
+      "category": "added",
+      "title": {
+        "de": "Öffentliches Community-Übersetzungspaket",
+        "en": "Public Community Translation Kit"
+      },
+      "changes": {
+        "de": [
+          "Das öffentliche Support-Repository enthält jetzt die aktuellen Sprachpakete, das Manifest und eine vollständige neutrale Übersetzungsvorlage.",
+          "Eine zweisprachige Anleitung erklärt Dateiaufbau, BCP-47-Metadaten, Platzhalter, JSON-Prüfung und Schlüsselvergleich anfängerfreundlich.",
+          "Eigene GitHub-Vorlagen für Übersetzungs-Issues und Pull Requests vereinheitlichen Beiträge aus der Community.",
+          "Die DE/EN-Referenzpakete enthalten nun ebenfalls alle 14 Rollenbezeichnungen als explizite Vorlage für neue Sprachen."
+        ],
+        "en": [
+          "The public Support repository now provides the current language packs, manifest and a complete neutral translation template.",
+          "A bilingual guide explains file structure, BCP 47 metadata, placeholders, JSON validation and key comparison for beginners.",
+          "Dedicated GitHub templates for translation issues and pull requests standardize community contributions.",
+          "The DE/EN reference packages now also include all 14 role labels explicitly as a template for new languages."
+        ]
+      }
+    },
     {
       "version": "0.10.46-beta",
       "date": "2026-08-23",

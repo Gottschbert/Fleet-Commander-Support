@@ -5,7 +5,7 @@ Offizielles öffentliches Support-, Bugreport- und Feature-Request-Repository f�
 🌐 Sprache: [English](README.md) | **Deutsch**
 
 > Website: **https://www.fleet-commander.net/**  
-> Aktuelle öffentliche Version: **0.10.46-beta**  
+> Aktuelle öffentliche Version: **0.10.47-beta**  
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Quellcode: **Privat / Closed Source**
 
@@ -21,6 +21,7 @@ Du kannst es verwenden, um:
 - bekannte Probleme nachzusehen
 - öffentliche Release Notes zu lesen
 - grundlegende Support-Informationen zu finden
+- Community-Sprachpakete zu erstellen und beizutragen
 
 ## Wofür dieses Repository NICHT gedacht ist
 
@@ -84,6 +85,7 @@ Siehe auch:
 - [Öffentlicher Changelog](https://gottschbert.github.io/Fleet-Commander-Support/changelog/)
 - [Bekannte Probleme](KNOWN_ISSUES.md)
 - [Support-Leitfaden](SUPPORT.md)
+- [Community-Übersetzungen](languages/README.de.md)
 
 ## Datenschutz & Datenspeicherung
 

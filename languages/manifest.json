@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "fallbackLanguage": "en",
+  "languages": [
+    {
+      "code": "de",
+      "file": "de.json",
+      "nativeName": "Deutsch",
+      "englishName": "German",
+      "locale": "de-DE",
+      "direction": "ltr"
+    },
+    {
+      "code": "en",
+      "file": "en.json",
+      "nativeName": "English",
+      "englishName": "English",
+      "locale": "en-US",
+      "direction": "ltr"
+    },
+    {
+      "code": "zh-CN",
+      "file": "zh-CN.json",
+      "nativeName": "简体中文",
+      "englishName": "Simplified Chinese",
+      "locale": "zh-CN",
+      "direction": "ltr"
+    }
+  ]
+}
+

@@ -1,0 +1,58 @@
+name: Translation contribution
+description: Submit or propose a new Fleet Commander language pack
+title: "[Translation]: "
+labels:
+  - translation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping Fleet Commander become more accessible. Read `languages/README.md` before submitting a translation. Never include credentials, personal data or private session links.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Native and English language name.
+      placeholder: Français / French
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: BCP 47 language code
+      placeholder: fr or pt-BR
+    validations:
+      required: true
+  - type: dropdown
+    id: completion
+    attributes:
+      label: Completion status
+      options:
+        - Complete — all translation and role keys translated
+        - Draft — review or help still required
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation performed
+      description: Confirm JSON parsing, key comparison and any application testing.
+      placeholder: JSON valid; key comparison has no differences; visually tested in Fleet Commander.
+    validations:
+      required: true
+  - type: textarea
+    id: attachment
+    attributes:
+      label: Language file or pull request
+      description: Attach the JSON file here or link the pull request. Do not paste the complete JSON into this field.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Contribution confirmation
+      options:
+        - label: I created this translation or have permission to contribute it for use and redistribution with Fleet Commander.
+          required: true
+        - label: The file contains no credentials, personal data, private session links or executable code.
+          required: true
