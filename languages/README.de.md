@@ -25,7 +25,7 @@ English: [Open the English guide](README.md)
   "englishName": "French",
   "locale": "fr-FR",
   "direction": "ltr",
-  "packVersion": "0.10.54-beta"
+  "packVersion": "0.10.55-beta"
 }
 ```
 

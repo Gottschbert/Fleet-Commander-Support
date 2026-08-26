@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T19:45:00+02:00",
+  "updatedAt": "2026-08-26T13:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.55-beta",
+      "date": "2026-08-26",
+      "category": "changed",
+      "title": {
+        "de": "Mobile Kopfzeile responsiv überarbeitet",
+        "en": "Mobile Header Responsively Reworked"
+      },
+      "changes": {
+        "de": [
+          "Die mobile Kopfzeile nutzt nun ein klares mehrzeiliges Raster statt einer zusammengedrückten Desktop-Zeile.",
+          "Navigation und Fleet-Commander-Titel bleiben oben lesbar; User-ID und Sprachwahl teilen sich die Bedienzeile darunter.",
+          "Auf sehr schmalen Geräten weicht der Einsatzstatus kontrolliert in eine dritte Zeile aus.",
+          "Lange Usernamen werden gekürzt, iOS-Sicherheitsabstände berücksichtigt und horizontaler Seiten-Overflow vermieden."
+        ],
+        "en": [
+          "The mobile header now uses a clear multi-row grid instead of compressing the desktop layout into one line.",
+          "Navigation and the Fleet Commander title remain readable on top while User ID and language selection share the control row below.",
+          "On very narrow devices, operation status moves to a controlled third line.",
+          "Long usernames are truncated, iOS safe-area insets are respected and horizontal page overflow is prevented."
+        ]
+      }
+    },
     {
       "version": "0.10.54-beta",
       "date": "2026-08-23",
