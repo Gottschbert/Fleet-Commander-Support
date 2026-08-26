@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T13:00:00+02:00",
+  "updatedAt": "2026-08-26T16:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.56-beta",
+      "date": "2026-08-26",
+      "category": "added",
+      "title": {
+        "de": "Optionales Operationsarchiv und mobile Hauptnavigation",
+        "en": "Optional Operation Archive and Mobile Primary Navigation"
+      },
+      "changes": {
+        "de": [
+          "Aktuelle Operationsdaten können bei Bedarf lokal gespeichert und in den System-Einstellungen verwaltet werden.",
+          "Archive lassen sich nach Bestätigung laden, als neue Planung kopieren oder einzeln löschen.",
+          "Logo, User-ID, Organisation, Sprache und andere lokale Einstellungen bleiben beim Laden unverändert.",
+          "Auf Smartphones sind alle fünf Hauptbereiche dauerhaft über die neue untere Navigation erreichbar.",
+          "Das Archiv bleibt vollständig freiwillig und erzeugt außerhalb der Einstellungen keine Aufforderungen."
+        ],
+        "en": [
+          "Current operation data can optionally be saved locally and managed in System Settings.",
+          "Archives can be loaded after confirmation, copied as a new plan or deleted individually.",
+          "Logo, user ID, organization, language and other local settings remain unchanged when loading.",
+          "On phones, all five primary areas are permanently available through the new bottom navigation.",
+          "The archive remains entirely optional and never prompts users outside Settings."
+        ]
+      }
+    },
     {
       "version": "0.10.55-beta",
       "date": "2026-08-26",
