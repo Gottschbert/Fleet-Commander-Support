@@ -34,7 +34,7 @@ Die HTML-, CSS- und JS-Dateien brauchen nur Änderungen, wenn sich das Layout od
 
 ## Origins
 
-Der älteste Eintrag lautet **Origins – Portierung auf die Web-Plattform** und dokumentiert die Migration der ursprünglichen Python-Desktop-Anwendung zur browserbasierten HTML/CSS/JavaScript-Version.
+Der älteste Eintrag lautet **Origins – Von der Python-Windows-Anwendung zur Webplattform** und dokumentiert die belegte Entwicklungslinie vom ersten Datenbestand am 20.07.2023 über den Python-/Tkinter- und Windows-EXE-Prototyp bis zum erhaltenen Webstand vom 08.08.2026.
 
 ## Wichtig
 

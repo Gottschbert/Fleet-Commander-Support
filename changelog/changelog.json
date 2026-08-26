@@ -1207,6 +1207,29 @@
           "Interactive Fleet Overview and collapsible information / guide area."
         ]
       }
+    },
+    {
+      "version": "Origins",
+      "date": "2023-07-20",
+      "category": "added",
+      "title": {
+        "de": "Von der Python-Windows-Anwendung zur Webplattform",
+        "en": "From the Python Windows Application to the Web Platform"
+      },
+      "changes": {
+        "de": [
+          "Die Entwicklungslinie von Fleet Commander begann nachweislich am 20. Juli 2023 mit einer lokalen Schiffsdatenbank.",
+          "Am folgenden Tag entstand mit dem SFA – SC Event Planner eine Python-basierte Windows-Anwendung mit Tkinter-Oberfläche, SQLite-Datenhaltung, CSV-Import und Verwaltung von Schiffen, Organisationen und Spieler-Handles.",
+          "Eine zweite Entwicklungsstufe ergänzte unter anderem aUEC-Werte, Auswertungen und eine als eigenständige Windows-EXE verteilbare PyInstaller-Version; die erhaltene Datenbank belegt Nutzung oder Pflege mindestens bis zum 23. Mai 2024.",
+          "Nach weiteren, nicht vollständig dokumentierten Entwicklungsstufen wurde das Werkzeug am 8. August 2026 als responsive HTML-, CSS- und JavaScript-Webanwendung neu aufgebaut; mit 0.9.0-beta begann am 9. August 2026 die formale Versionierung der Webplattform."
+        ],
+        "en": [
+          "The development line of Fleet Commander can be traced to a local ship database created on July 20, 2023.",
+          "The following day, SFA – SC Event Planner emerged as a Python-based Windows application with a Tkinter interface, SQLite storage, CSV import and management of ships, organizations and player handles.",
+          "A second development stage added aUEC values, evaluations and a standalone Windows executable packaged with PyInstaller; the preserved database proves use or maintenance through at least May 23, 2024.",
+          "After further stages that are not fully documented, the tool was rebuilt as a responsive HTML, CSS and JavaScript web application on August 8, 2026; formal web-platform versioning began with 0.9.0-beta on August 9, 2026."
+        ]
+      }
     }
   ]
 }
