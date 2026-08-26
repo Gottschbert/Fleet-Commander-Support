@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T16:00:00+02:00",
+  "updatedAt": "2026-08-26T17:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.57-beta",
+      "date": "2026-08-26",
+      "category": "added",
+      "title": {
+        "de": "Lokale Finanzen und Eventabrechnung",
+        "en": "Local Finance and Event Settlement"
+      },
+      "changes": {
+        "de": [
+          "Der neue Bereich 4. Finanzen liegt zwischen Crew-Einsatz und Einstellungen.",
+          "Eventteilnehmer werden aus dem aktuellen Deployment übernommen und können einzeln berücksichtigt oder gewichtet werden.",
+          "Bruttoertrag, Eventkosten sowie ein fester oder prozentualer Gildenanteil ergeben eine exakte Verteilung in ganzen aUEC.",
+          "Gildenanteile und manuelle Spielerbeiträge werden in einer lokalen Gildenbank mit Buchungshistorie geführt.",
+          "Die Beitragsauswahl trennt aktuelle Eventteilnehmer mit Statussymbolen von weiteren registrierten Spielern.",
+          "Finanzdaten lassen sich in der Datenpflege als JSON exportieren, importieren oder vollständig zurücksetzen.",
+          "Die Smartphone-Navigation enthält nun alle sechs Hauptbereiche."
+        ],
+        "en": [
+          "The new 4. Finance area sits between Crew Deployment and Settings.",
+          "Event participants are taken from the current deployment and can be individually included or weighted.",
+          "Gross earnings, event costs and a fixed or percentage-based guild share produce an exact whole-aUEC distribution.",
+          "Guild shares and manual player contributions are tracked in a local guild bank with transaction history.",
+          "The contribution selector separates current event participants from other registered players and shows assignment status icons.",
+          "Finance data can be exported, imported or fully reset as JSON under Data Maintenance.",
+          "Phone navigation now contains all six primary areas."
+        ]
+      }
+    },
     {
       "version": "0.10.56-beta",
       "date": "2026-08-26",
