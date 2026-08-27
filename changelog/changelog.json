@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T17:00:00+02:00",
+  "updatedAt": "2026-08-27T11:30:00+02:00",
   "entries": [
+    {
+      "version": "0.10.58-beta",
+      "date": "2026-08-27",
+      "category": "improved",
+      "title": {
+        "de": "Orga-Finanzen und kompaktere Eventverteilung",
+        "en": "Organization Finance and Compact Event Distribution"
+      },
+      "changes": {
+        "de": [
+          "Die Finanzoberfläche verwendet nun konsequent die in Star Citizen übliche Bezeichnung Orga statt Gilde.",
+          "Die Einleitung erklärt die Orga-Bank, Spielerbeiträge und Eventverteilungen verständlicher.",
+          "Eventteilnehmer erscheinen platzsparend in einer kompakten Zeile mit ihrem automatisch berechneten Auszahlungsbetrag.",
+          "Die technische freie Gewichtung wurde durch die klare Auswahl Nur kurz dabei ersetzt; sie vergibt automatisch einen halben Anteil.",
+          "Ein zentraler Release-Workflow verteilt freigegebene Dateien automatisch nach LIVE und Support und erzeugt ein gemeinsames Paket mit Ziel-Manifest."
+        ],
+        "en": [
+          "Finance now consistently uses Star Citizen organization terminology instead of guild terminology.",
+          "The introduction explains the organization bank, player contributions and event distributions more clearly.",
+          "Event participants are shown in compact rows with their automatically calculated payout.",
+          "Technical free-form weighting was replaced by a clear brief participation option that automatically grants half a share.",
+          "A centralized release workflow now distributes approved files to LIVE and Support and creates one package with a destination manifest."
+        ]
+      }
+    },
     {
       "version": "0.10.57-beta",
       "date": "2026-08-26",
@@ -14,8 +39,8 @@
         "de": [
           "Der neue Bereich 4. Finanzen liegt zwischen Crew-Einsatz und Einstellungen.",
           "Eventteilnehmer werden aus dem aktuellen Deployment übernommen und können einzeln berücksichtigt oder gewichtet werden.",
-          "Bruttoertrag, Eventkosten sowie ein fester oder prozentualer Gildenanteil ergeben eine exakte Verteilung in ganzen aUEC.",
-          "Gildenanteile und manuelle Spielerbeiträge werden in einer lokalen Gildenbank mit Buchungshistorie geführt.",
+          "Bruttoertrag, Eventkosten sowie ein fester oder prozentualer Orga-Anteil ergeben eine exakte Verteilung in ganzen aUEC.",
+          "Orga-Anteile und manuelle Spielerbeiträge werden in einer lokalen Orga-Bank mit Buchungshistorie geführt.",
           "Die Beitragsauswahl trennt aktuelle Eventteilnehmer mit Statussymbolen von weiteren registrierten Spielern.",
           "Finanzdaten lassen sich in der Datenpflege als JSON exportieren, importieren oder vollständig zurücksetzen.",
           "Die Smartphone-Navigation enthält nun alle sechs Hauptbereiche.",
@@ -24,8 +49,8 @@
         "en": [
           "The new 4. Finance area sits between Crew Deployment and Settings.",
           "Event participants are taken from the current deployment and can be individually included or weighted.",
-          "Gross earnings, event costs and a fixed or percentage-based guild share produce an exact whole-aUEC distribution.",
-          "Guild shares and manual player contributions are tracked in a local guild bank with transaction history.",
+          "Gross earnings, event costs and a fixed or percentage-based organization share produce an exact whole-aUEC distribution.",
+          "Organization shares and manual player contributions are tracked in a local organization bank with transaction history.",
           "The contribution selector separates current event participants from other registered players and shows assignment status icons.",
           "Finance data can be exported, imported or fully reset as JSON under Data Maintenance.",
           "Phone navigation now contains all six primary areas.",
