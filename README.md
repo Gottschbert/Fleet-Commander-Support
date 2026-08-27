@@ -1,9 +1,9 @@
-# Fleet Commander Support
+﻿# Fleet Commander Support
 
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
 > Website: **https://www.fleet-commander.net/**  
-> Current public version: **0.10.57-beta**
+> $10.10.57-beta**
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
 
@@ -36,7 +36,7 @@ This public repository therefore does **not** contain:
 
 ## Report a bug
 
-Open **Issues → New issue → Bug report**.
+Open **Issues â†’ New issue â†’ Bug report**.
 
 Please include:
 
@@ -53,7 +53,7 @@ Never include passwords, private session links or sensitive information.
 
 ## Request a feature
 
-Open **Issues → New issue → Feature request**.
+Open **Issues â†’ New issue â†’ Feature request**.
 
 Please describe the operational problem first, then your proposed solution.
 
@@ -90,7 +90,7 @@ Fleet Commander is designed to minimize the server-side processing of fleet and 
 
 ### Local storage by default
 
-Fleet planning data entered into Fleet Commander — such as player / crew names, squadrons, ship assignments, roles, operation status and locations — is stored locally in the user's browser using browser storage.
+Fleet planning data entered into Fleet Commander â€” such as player / crew names, squadrons, ship assignments, roles, operation status and locations â€” is stored locally in the user's browser using browser storage.
 
 Under normal use, this fleet state is **not automatically uploaded to or persistently stored in a central Fleet Commander user database**.
 
