@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T12:00:00+02:00",
+  "updatedAt": "2026-09-02T12:30:00+02:00",
   "entries": [
+    {
+      "version": "0.10.60-beta",
+      "date": "2026-09-02",
+      "category": "fixed",
+      "title": {
+        "de": "Mehrsprachiges Impressum",
+        "en": "Multilingual Legal Page"
+      },
+      "changes": {
+        "de": [
+          "Das Impressum übernimmt jetzt die in Fleet Commander gespeicherte Sprache.",
+          "Alle Inhalte des Impressums stehen vollständig auf Deutsch, Englisch und vereinfachtem Chinesisch zur Verfügung.",
+          "Eine eigene Sprachauswahl im Impressum erlaubt den direkten Wechsel und synchronisiert die Auswahl zurück zur App.",
+          "Bereits geöffnete App- und Impressums-Tabs reagieren auf Sprachänderungen über den lokalen Browserspeicher."
+        ],
+        "en": [
+          "The legal page now adopts the language saved in Fleet Commander.",
+          "All legal-page content is available in German, English and Simplified Chinese.",
+          "A dedicated language selector allows direct switching and synchronizes the selection back to the app.",
+          "Open app and legal-page tabs react to language changes through local browser storage."
+        ]
+      }
+    },
     {
       "version": "0.10.59-beta",
       "date": "2026-09-02",

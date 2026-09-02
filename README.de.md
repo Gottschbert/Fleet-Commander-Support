@@ -1,11 +1,11 @@
-﻿# Fleet Commander Support
+# Fleet Commander Support
 
 Offizielles Ã¶ffentliches Support-, Bugreport- und Feature-Request-Repository fÃ¼r **Fleet Commander**.
 
 ðŸŒ Sprache: [English](README.md) | **Deutsch**
 
 > Website: **https://www.fleet-commander.net/**  
-> Aktuelle öffentliche Version: **0.10.59-beta**
+> Aktuelle Ã¶ffentliche Version: **0.10.60-beta**
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Quellcode: **Privat / Closed Source**
 
