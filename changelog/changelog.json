@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T11:30:00+02:00",
+  "updatedAt": "2026-09-02T12:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.59-beta",
+      "date": "2026-09-02",
+      "category": "improved",
+      "title": {
+        "de": "Rechtliches, Branding und klare Logo-Rollen",
+        "en": "Legal Page, Branding and Clear Logo Roles"
+      },
+      "changes": {
+        "de": [
+          "Das Impressum wurde als responsive Rechtliches- und Transparenzseite im eigenständigen Fleet-Commander-Stil neu gestaltet.",
+          "Das Gottschi-Banner und das Motiv Made by the Community sind nun sichtbar in das Impressum eingebunden.",
+          "Fleet Commander erhält ein neues, eigenständiges Browser-Icon in mehreren Favicon-Größen.",
+          "Links im Header steht dauerhaft das Fleet-Commander-Produktlogo; nur das mittlere Organisationslogo bleibt durch Nutzer bearbeitbar.",
+          "USER-ID und Einsatzstatus bleiben von der neuen Logo-Aufteilung vollständig unberührt.",
+          "Der RSI-Online-Abgleich ist bis zur Klärung der Erlaubnis vorübergehend deaktiviert; der lokale Crew-Import per CSV/TXT bleibt verfügbar.",
+          "Hinweise zu Datenschutz, lokaler Datenhaltung, Fanprojektstatus, Marken und Drittinhalten wurden im Impressum gebündelt."
+        ],
+        "en": [
+          "The imprint was redesigned as a responsive legal and transparency page with an original Fleet Commander visual identity.",
+          "The Gottschi banner and Made by the Community artwork are now visibly integrated into the imprint.",
+          "Fleet Commander now has a dedicated browser icon supplied in multiple favicon sizes.",
+          "The Fleet Commander product logo is permanently shown on the left of the header; only the centered organization logo remains user-editable.",
+          "USER ID and operation status remain completely unaffected by the revised logo roles.",
+          "RSI online synchronization is temporarily disabled while permission is clarified; local CSV/TXT crew import remains available.",
+          "Privacy, local data storage, fan-project, trademark and third-party content notices are now consolidated in the imprint."
+        ]
+      }
+    },
     {
       "version": "0.10.58-beta",
       "date": "2026-08-27",
