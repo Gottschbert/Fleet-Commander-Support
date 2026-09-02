@@ -6,7 +6,7 @@
     "englishName": "Simplified Chinese",
     "locale": "zh-CN",
     "direction": "ltr",
-    "packVersion": "0.10.60-beta"
+    "packVersion": "0.10.61-beta"
   },
   "translations": {
     "navHeader": "菜单",

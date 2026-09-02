@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T12:30:00+02:00",
+  "updatedAt": "2026-09-02T13:30:00+02:00",
   "entries": [
+    {
+      "version": "0.10.61-beta",
+      "date": "2026-09-02",
+      "category": "improved",
+      "title": {
+        "de": "Aktualisierte Info und Bedienungsanleitung",
+        "en": "Updated Information and Operating Guide"
+      },
+      "changes": {
+        "de": [
+          "Die eingebettete Bedienungsanleitung wurde vollständig mit dem aktuellen Entwicklungsstand abgeglichen.",
+          "Veraltete Anweisungen zum RSI-Online-Sync wurden durch den lokalen CSV-, TSV- und TXT-Crew-Import ersetzt.",
+          "Logo-Rollen, Finanzen, Orga-Bank, separate Finanzsicherung und Operationsarchive sind nun verständlich dokumentiert.",
+          "Teilen, lokale Speicherung, Reset-Verhalten und das mehrsprachige Impressum wurden aktualisiert.",
+          "Deutsch, Englisch und vereinfachtes Chinesisch verwenden wieder dieselbe aktuelle Anleitungsstruktur."
+        ],
+        "en": [
+          "The embedded operating guide was fully aligned with the current development state.",
+          "Obsolete RSI online-sync instructions were replaced with the local CSV, TSV and TXT crew import workflow.",
+          "Logo roles, finance settlement, organization bank, separate finance backups and operation archives are now documented clearly.",
+          "Sharing, local storage, reset behavior and the multilingual legal page were updated.",
+          "German, English and Simplified Chinese now use the same current guide structure."
+        ]
+      }
+    },
     {
       "version": "0.10.60-beta",
       "date": "2026-09-02",
