@@ -1,7 +1,89 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T13:30:00+02:00",
+  "updatedAt": "2026-09-14T18:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.65-beta",
+      "date": "2026-09-14",
+      "category": "changed",
+      "title": {
+        "de": "Modularisierung – Phase 2",
+        "en": "Modularization – Phase 2"
+      },
+      "changes": {
+        "de": [
+          "Fünf weitere zusammenhängende Funktionsblöcke wurden aus app.js in eigene Module ausgelagert: Operationsarchiv, Finanzen, Dashboard-Kennzahlen, Fleet-Tree-Rendering und der (weiterhin ruhende) RSI-Organisations-Sync.",
+          "app.js wurde von rund 4.900 auf rund 2.700 Zeilen reduziert; Zustand, Speicherformat und Share-Kompatibilität bleiben unverändert.",
+          "Alle Module teilen weiterhin denselben globalen Skript-Kontext ohne Build-Schritt; die Ladereihenfolge in index.html wurde entsprechend ergänzt."
+        ],
+        "en": [
+          "Five further cohesive blocks were extracted from app.js into dedicated modules: the operation archive, finance, dashboard readiness metrics, Fleet Tree rendering and the (still dormant) RSI organization sync.",
+          "app.js was reduced from roughly 4,900 to roughly 2,700 lines while state, storage format and share compatibility remain unchanged.",
+          "All modules continue to share the same global script context without a build step; the load order in index.html was extended accordingly."
+        ]
+      }
+    },
+    {
+      "version": "0.10.64-beta",
+      "date": "2026-09-14",
+      "category": "added",
+      "title": {
+        "de": "Akzentfarben-Theme",
+        "en": "Accent Color Theme"
+      },
+      "changes": {
+        "de": [
+          "Ein neuer Farbschema-Umschalter neben der Sprachauswahl bietet 16 feste Akzentfarben für Buttons, aktive Navigation, Rahmen und Fokus.",
+          "Rollenfarben im Fleet Tree (Pilot, Ingenieur, Sanitäter, ...) sowie Warn- und Gefahren-Buttons (Update, Löschen) bleiben bewusst fest – sie tragen eine eigene Bedeutung, unabhängig vom gewählten Theme.",
+          "Die gewählte Farbe wird lokal gespeichert und beim nächsten Laden ohne sichtbaren Farbwechsel sofort angewendet."
+        ],
+        "en": [
+          "A new theme picker next to the language selector offers 16 fixed accent colors for buttons, active navigation, borders and focus states.",
+          "Fleet Tree role colors (Pilot, Engineer, Medic, ...) and warning/danger buttons (Update, Delete) intentionally stay fixed – they carry their own meaning regardless of the chosen theme.",
+          "The chosen color is stored locally and applied immediately on the next load without a visible color flash."
+        ]
+      }
+    },
+    {
+      "version": "0.10.63-beta",
+      "date": "2026-09-14",
+      "category": "added",
+      "title": {
+        "de": "Eigenes Dialog-System",
+        "en": "Custom Dialog System"
+      },
+      "changes": {
+        "de": [
+          "Native Browser-Dialoge (alert/confirm/prompt) wurden vollständig durch ein eigenes, zum Sci-Fi-Design passendes Dialog-System ersetzt.",
+          "Bestandteil der Umstellung auf strengere Sicherheitsregeln (Content-Security-Policy) für eingebettete Skripte."
+        ],
+        "en": [
+          "Native browser dialogs (alert/confirm/prompt) were fully replaced with a custom dialog system matching the sci-fi visual design.",
+          "Part of the move to stricter Content Security Policy rules for embedded scripts."
+        ]
+      }
+    },
+    {
+      "version": "0.10.62-beta",
+      "date": "2026-09-14",
+      "category": "improved",
+      "title": {
+        "de": "Sicherheits- und Ladezeit-Härtung",
+        "en": "Security and Load-Time Hardening"
+      },
+      "changes": {
+        "de": [
+          "Alle eingebetteten Inline-Ereignis-Handler wurden entfernt; die Content-Security-Policy erlaubt nun ausschließlich Skripte von der eigenen Domain.",
+          "Statische Bilder wurden verlustfrei bzw. verlustarm komprimiert und dadurch deutlich verkleinert.",
+          "Der nicht mehr erreichbare externe Schiffsdaten-Abgleich wurde entfernt; die App nutzt ausschließlich die zentrale Server-Schiffsdatenbank."
+        ],
+        "en": [
+          "All embedded inline event handlers were removed; the Content Security Policy now allows scripts only from the app's own domain.",
+          "Static images were losslessly or near-losslessly compressed, meaningfully reducing their size.",
+          "The no-longer-reachable external ship-data fallback was removed; the app now relies exclusively on the central server ship database."
+        ]
+      }
+    },
     {
       "version": "0.10.61-beta",
       "date": "2026-09-02",
