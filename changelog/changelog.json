@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T13:10:00+02:00",
+  "updatedAt": "2026-09-15T14:45:00+02:00",
   "entries": [
+    {
+      "version": "0.10.68-beta",
+      "date": "2026-09-15",
+      "category": "improved",
+      "title": {
+        "de": "Enter-Taste überall nutzbar & Finanz-Saldo",
+        "en": "Enter Key Everywhere & Finance Balance"
+      },
+      "changes": {
+        "de": [
+          "Alle Eingabefelder im Tool reagieren jetzt auf die Enter-Taste – unter anderem Namensänderung, manueller Schiffsname, Schiffsfilter, Squadron-Standort, Archivname sowie Finanzbuchungen und -abrechnung.",
+          "Ein defekter, seit dem Schiffsfilter-Redesign toter Enter-Handler für die Schiffsauswahl wurde durch einen funktionierenden ersetzt.",
+          "Mitgliederkonten zeigen jetzt einen einzelnen Saldo (grün = Orga schuldet, rot = Mitglied schuldet) statt zweier unabhängiger Summen – zusammen mit dem weiterhin separat geführten offenen Darlehen.",
+          "Beim Buchen eines Darlehens erscheint ein Hinweis, wenn die Person bereits ein Guthaben hat."
+        ],
+        "en": [
+          "Every input field in the app now responds to the Enter key – including renaming a player, manually entering a ship name, the ship filter, squadron location, archive name and finance bookings/settlement.",
+          "A broken Enter handler for the ship dropdown, dead since the ship-filter redesign, was replaced with a working one.",
+          "Member accounts now show a single balance (green = organization owes, red = member owes) instead of two independent totals – alongside the still separately tracked open loan.",
+          "Booking a loan now shows a warning if the person already has a credit balance."
+        ]
+      }
+    },
     {
       "version": "0.10.67-beta",
       "date": "2026-09-15",

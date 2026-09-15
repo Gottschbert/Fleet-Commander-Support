@@ -6,7 +6,7 @@
     "englishName": "English",
     "locale": "en-US",
     "direction": "ltr",
-    "packVersion": "0.10.67-beta"
+    "packVersion": "0.10.68-beta"
   },
   "translations": {
     "navHeader": "Menu",
@@ -108,6 +108,8 @@
     "financeAccountsReceived": "Received",
     "financeAccountsContributed": "Contributed",
     "financeAccountsOpenLoan": "Open loan",
+    "financeAccountsBalance": "Balance",
+    "financeLoanBalanceWarning": "{player} currently has a credit of {amount}. Book a loan anyway?",
     "financeAccountsNone": "No transactions yet.",
     "financePendingTitle": "Pending payouts",
     "financePendingPayAll": "Pay all",

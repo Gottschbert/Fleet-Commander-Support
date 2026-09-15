@@ -6,7 +6,7 @@
     "englishName": "Simplified Chinese",
     "locale": "zh-CN",
     "direction": "ltr",
-    "packVersion": "0.10.67-beta"
+    "packVersion": "0.10.68-beta"
   },
   "translations": {
     "navHeader": "菜单",
@@ -108,6 +108,8 @@
     "financeAccountsReceived": "已收到",
     "financeAccountsContributed": "已缴纳",
     "financeAccountsOpenLoan": "未偿还借款",
+    "financeAccountsBalance": "余额",
+    "financeLoanBalanceWarning": "{player} 目前有 {amount} 的余额。仍要记录借款吗？",
     "financeAccountsNone": "暂无交易记录。",
     "financePendingTitle": "待付款项",
     "financePendingPayAll": "全部付款",
