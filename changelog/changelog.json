@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T18:00:00+02:00",
+  "updatedAt": "2026-09-15T09:20:00+02:00",
   "entries": [
+    {
+      "version": "0.10.66-beta",
+      "date": "2026-09-15",
+      "category": "fixed",
+      "title": {
+        "de": "Impressum durch CSP blockiert",
+        "en": "Legal page blocked by CSP"
+      },
+      "changes": {
+        "de": [
+          "impressum.html enthielt noch ein eingebettetes Skript, das durch die verschärfte Content-Security-Policy (script-src 'self') blockiert wurde – die Seite blieb dadurch leer.",
+          "Das Skript wurde nach js/impressum.js ausgelagert; die Seite lädt und übersetzt sich wieder normal.",
+          "Das Release-Sync-Skript sichert seitdem vor jedem Sync automatisch den bisherigen LIVE-Stand geänderter Dateien (neue Rollback-Option)."
+        ],
+        "en": [
+          "impressum.html still contained an embedded script that got blocked by the hardened Content Security Policy (script-src 'self'), leaving the page empty.",
+          "The script was moved to js/impressum.js; the page now loads and translates normally again.",
+          "The release sync script now automatically backs up the previous LIVE state of changed files before every sync (new rollback option)."
+        ]
+      }
+    },
     {
       "version": "0.10.65-beta",
       "date": "2026-09-14",
