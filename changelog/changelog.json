@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T09:20:00+02:00",
+  "updatedAt": "2026-09-15T13:10:00+02:00",
   "entries": [
+    {
+      "version": "0.10.67-beta",
+      "date": "2026-09-15",
+      "category": "added",
+      "title": {
+        "de": "Mitgliederkonten & Auszahlungen",
+        "en": "Member Accounts & Payouts"
+      },
+      "changes": {
+        "de": [
+          "Neuer Bereich „Mitgliederkonten“ im Finanzen-Tab zeigt je Spieler, wie viel er insgesamt erhalten und eingezahlt hat sowie ein eventuell offenes Darlehen – mit aufklappbarem Buchungsverlauf.",
+          "Eventabrechnungen erzeugen jetzt einzeln auszahlbare, offene Anteile statt nur einer Berechnung: „Auszahlen“ pro Person oder „Alle auszahlen“ pro Abrechnung bucht die tatsächliche Auszahlung.",
+          "Die Buchungsmaske „Spielerbeitrag buchen“ wurde zu einer allgemeinen Buchungsmaske mit wählbarer Buchungsart erweitert: Spielerbeitrag, Auszahlung, Darlehen oder Rückzahlung.",
+          "Darlehen an Mitglieder werden bis zur Rückzahlung als offene Verbindlichkeit geführt und im jeweiligen Mitgliederkonto rot hervorgehoben."
+        ],
+        "en": [
+          "New \"Member accounts\" area in the Finance tab shows, per player, how much they have received and contributed in total, plus any open loan – with an expandable transaction history.",
+          "Event settlements now create individually payable, open shares instead of just a calculation: \"Pay out\" per person or \"Pay all\" per settlement books the actual payout.",
+          "The \"Book player contribution\" form was generalized into a single booking form with a selectable booking type: contribution, payout, loan or repayment.",
+          "Loans to members are tracked as an open liability until repaid and highlighted in red on that member's account."
+        ]
+      }
+    },
     {
       "version": "0.10.66-beta",
       "date": "2026-09-15",
