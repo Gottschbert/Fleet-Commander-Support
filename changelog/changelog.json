@@ -1,7 +1,64 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T14:45:00+02:00",
+  "updatedAt": "2026-09-25T15:40:00+02:00",
   "entries": [
+    {
+      "version": "0.10.71-beta",
+      "date": "2026-09-25",
+      "category": "added",
+      "title": {
+        "de": "App-Wechsel-Schieber",
+        "en": "App Switch Slider"
+      },
+      "changes": {
+        "de": [
+          "Ein neuer Schieber-Schalter oben in der App wechselt direkt zwischen Fleet-Commander und Squad-Commander.",
+          "Der Schieber hebt das aktive App-Icon optisch hervor und zeigt beim Wechsel eine kurze Slide-Animation."
+        ],
+        "en": [
+          "A new slider switch at the top of the app switches directly between Fleet-Commander and Squad-Commander.",
+          "The slider visually highlights the active app's icon and shows a short slide animation when switching."
+        ]
+      }
+    },
+    {
+      "version": "0.10.70-beta",
+      "date": "2026-09-25",
+      "category": "fixed",
+      "title": {
+        "de": "Farbschema und Datenvermischung behoben",
+        "en": "Fixed Color Scheme and Data Mixing"
+      },
+      "changes": {
+        "de": [
+          "Eine versehentliche Vermischung der Rollenkataloge von Fleet-Commander und Squad-Commander im öffentlichen Support-Sprachpaket wurde behoben.",
+          "Ausrichtungs- und Farbfehler im neuen App-Wechsel-Schieber (Icon-Position und Hervorhebung des aktiven Icons) wurden korrigiert."
+        ],
+        "en": [
+          "An accidental mix-up of Fleet-Commander's and Squad-Commander's role catalogs in the public support language pack was fixed.",
+          "Alignment and color issues in the new app-switch slider (icon position and active-icon highlight) were corrected."
+        ]
+      }
+    },
+    {
+      "version": "0.10.69-beta",
+      "date": "2026-09-25",
+      "category": "added",
+      "title": {
+        "de": "Neues Begleit-Tool: Squad-Commander",
+        "en": "New Companion Tool: Squad-Commander"
+      },
+      "changes": {
+        "de": [
+          "Fleet Commander hat jetzt ein Geschwistertool namens Squad-Commander für Truppen- und Einsatzplanung in Squad und WARDOGS, erreichbar unter fleet-commander.net/squad-commander/.",
+          "Squad-Commander nutzt dieselbe Engine wie Fleet Commander, mit eigenem militärischem Design und eigenem Rollenkatalog."
+        ],
+        "en": [
+          "Fleet Commander now has a sibling tool called Squad-Commander for squad and mission planning in Squad and WARDOGS, available at fleet-commander.net/squad-commander/.",
+          "Squad-Commander uses the same engine as Fleet Commander, with its own military-style design and its own role catalog."
+        ]
+      }
+    },
     {
       "version": "0.10.68-beta",
       "date": "2026-09-15",

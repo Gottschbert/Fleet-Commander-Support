@@ -5,7 +5,7 @@ Offizielles Ã¶ffentliches Support-, Bugreport- und Feature-Request-Repository 
 ðŸŒ Sprache: [English](README.md) | **Deutsch**
 
 > Website: **https://www.fleet-commander.net/**  
-> Aktuelle Ã¶ffentliche Version: **0.10.68-beta**
+> Aktuelle Ã¶ffentliche Version: **0.10.71-beta**
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Quellcode: **Privat / Closed Source**
 
