@@ -3,7 +3,7 @@
 Official public support, bug-report and feature-request repository for **Fleet Commander**.
 
 > Website: **https://www.fleet-commander.net/**  
-> Current public version: **0.10.68-beta**
+> Current public version: **0.10.71-beta**
 > Changelog: https://gottschbert.github.io/Fleet-Commander-Support/changelog/  
 > Source code: **Private / Closed Source**
 
@@ -73,6 +73,10 @@ Fleet Commander currently includes:
 - Short secure session links
 - Compact Discord fleet brief export with Treeview hierarchy and localized timestamps
 - Responsive desktop, tablet and mobile interface
+
+## Squad-Commander companion tool
+
+Fleet Commander has a sibling tool, **Squad-Commander**, available at **https://www.fleet-commander.net/squad-commander/**. It shares Fleet Commander's engine (tree view, squadrons, crew assignment, session sharing, Discord export) but is re-themed for squad and mission planning in **Squad** and **WARDOGS**, with a military look and its own role catalog. Fleet Commander itself is unaffected and keeps its Star Citizen focus. This repository currently covers both tools; bug reports and feature requests for Squad-Commander are welcome here as well.
 
 ## Project status
 

@@ -76,6 +76,10 @@ Fleet Commander umfasst derzeit unter anderem:
 - kompakter Discord-Flottenbriefing-Export mit Treeview-Hierarchie und lokalisierten Zeitstempeln
 - responsive OberflÃ¤che fÃ¼r Desktop, Tablet und MobilgerÃ¤te
 
+## Begleit-Tool Squad-Commander
+
+Fleet Commander hat ein Geschwistertool, **Squad-Commander**, erreichbar unter **https://www.fleet-commander.net/squad-commander/**. Es nutzt dieselbe Engine wie Fleet Commander (Baumansicht, Squadrons, Crew-Zuweisung, Session-Freigabe, Discord-Export), ist aber für Truppen- und Einsatzplanung in **Squad** und **WARDOGS** umgestaltet, mit militärischem Design und einem eigenen Rollenkatalog. Fleet Commander selbst ist davon nicht betroffen und behält seinen Star-Citizen-Fokus. Dieses Repository deckt aktuell beide Tools ab; Fehlermeldungen und Feature-Wünsche zu Squad-Commander sind hier ebenfalls willkommen.
+
 ## Projektstatus
 
 Fleet Commander befindet sich derzeit in der **Beta-Phase** und wird aktiv weiterentwickelt.
