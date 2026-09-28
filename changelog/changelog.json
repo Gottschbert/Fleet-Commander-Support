@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T15:40:00+02:00",
+  "updatedAt": "2026-09-28T15:30:00+02:00",
   "entries": [
+    {
+      "version": "0.10.72-beta",
+      "date": "2026-09-28",
+      "category": "fixed",
+      "title": {
+        "de": "Rahmenfarben und Akzentfarbe vervollständigt",
+        "en": "Border Colors and Accent Color Completed"
+      },
+      "changes": {
+        "de": [
+          "Mehrere Rahmen wurden weiß statt in ihrer Bereichsfarbe angezeigt: Crew-Liste importieren und Offene Auszahlungen (Amber), Orga-Bank (Grün), Mitgliederkonten (Violett) sowie der Button „Finanzdaten löschen“ (Rot). Sie erscheinen jetzt in der passenden Farbe.",
+          "Der Button „Finanzdaten exportieren“ hat wieder seinen grünen Hintergrund, und „Finanzdaten löschen“ zeigt wieder einen Hover-Effekt.",
+          "Weitere Rahmen, Hover-Effekte, Platzhalter und die Textauswahl (u. a. Operationsarchiv und der Info-Button bei Datenschutz) folgen jetzt der gewählten Akzentfarbe.",
+          "Technischer Hintergrund: Die betroffenen Farbklassen fehlten im vorkompilierten Tailwind-CSS und sind jetzt in style.css ergänzt."
+        ],
+        "en": [
+          "Several borders were shown in white instead of their section color: Import Crew List and Pending Payouts (amber), Org Bank (green), Member Accounts (violet) and the “Delete finance data” button (red). They now appear in the matching color.",
+          "The “Export finance data” button has its green background again, and “Delete finance data” shows a hover effect again.",
+          "Further borders, hover effects, placeholders and text selection (including the operation archive and the privacy info button) now follow the selected accent color.",
+          "Technical background: the affected color classes were missing from the prebuilt Tailwind CSS and have been added to style.css."
+        ]
+      }
+    },
     {
       "version": "0.10.71-beta",
       "date": "2026-09-25",

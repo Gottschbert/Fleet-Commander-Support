@@ -6,7 +6,7 @@
                  "englishName":  "Language Name in English",
                  "locale":  "xx-XX",
                  "direction":  "ltr",
-                 "packVersion":  "0.10.71-beta"
+                 "packVersion":  "0.10.72-beta"
              },
     "translations":  {
                          "navHeader":  "Menu",
@@ -26,7 +26,7 @@
                          "crewLabelName":  "Citizen Name",
                          "crewBtnReg":  "Register Citizen",
                          "crewDbTitle":  "Edit / Database",
-                         "crewSelectLabel":  "Choose Player (ðŸŸ¢ Available | ðŸ”´ Assigned)",
+                         "crewSelectLabel":  "Choose Player (🟢 Available | 🔴 Assigned)",
                          "playerStatusAvailable":  "Available",
                          "playerStatusAssigned":  "Assigned",
                          "crewEditLabel":  "Change Name To...",
@@ -39,7 +39,7 @@
                          "squadAddTitle":  "Add Vehicle to Squadron",
                          "squadTargetLabel":  "Target Squadron",
                          "squadVehicleLabel":  "Vehicle",
-                         "squadTip":  "ðŸ’¡ Tip: Select a ship from the dropdown or add a new one using the input field below!",
+                         "squadTip":  "💡 Tip: Select a ship from the dropdown or add a new one using the input field below!",
                          "squadSearchPlaceholder":  "Manual entry or add new Vehicle (optional)...",
                          "squadBtnAdd":  "+ Add to Squadron",
                          "deployTitle":  "Tactical Deployment",
@@ -48,7 +48,7 @@
                          "deployBtnDelSquad":  "Delete Squad",
                          "deployBtnDelVeh":  "Delete Vehicle",
                          "deploySelectRole":  "Select Role",
-                         "deployChoosePlayer":  "Choose Player (ðŸŸ¢ Available | ðŸ”´ Assigned)",
+                         "deployChoosePlayer":  "Choose Player (🟢 Available | 🔴 Assigned)",
                          "deployBtnSubmit":  "Assign / Move Crew",
                          "deploySquadLoc":  "Squadron Location",
                          "deployBtnLoc":  "Set Location",
@@ -137,9 +137,9 @@
                          "confirmDelSquad":  "Do you really want to delete this squadron?",
                          "confirmDelVeh":  "Do you really want to delete this vehicle?",
                          "confirmDelCitizen":  "Do you really want to delete player \"{player}\"? All existing crew assignments for this player will also be removed.",
-                         "shipFilterPlaceholder":  "ðŸ” Filter ship...",
+                         "shipFilterPlaceholder":  "🔍 Filter ship...",
                          "shipCustomPlaceholder":  "Or enter new ship name manually...",
-                         "deployBtnPlank":  "ðŸ’€ Plank",
+                         "deployBtnPlank":  "💀 Plank",
                          "logPlankSuccess":  "Walked the plank: Player removed from crew: ",
                          "logClipboard":  "Data buffer exported directly onto clipboard."
                      },
