@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T16:00:00+02:00",
+  "updatedAt": "2026-09-28T17:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.74-beta",
+      "date": "2026-09-28",
+      "category": "technical",
+      "title": {
+        "de": "Server-Absicherung & Release-Aufräumwerkzeug",
+        "en": "Server Hardening & Release Cleanup Tool"
+      },
+      "changes": {
+        "de": [
+          "Versteckte Dateien und Entwicklerordner (z. B. .git) werden vom Webserver grundsätzlich nicht mehr ausgeliefert – auch nicht in Unterordnern wie /squad-commander/.",
+          "Die auf dem Server gepflegte Schiffsdatenbank wird beim Release nicht mehr durch eine ältere lokale Kopie überschrieben.",
+          "Neue Release-Aktion „Prune“: räumt den lokalen Website-Ordner auf, verschiebt überflüssige Dateien in ein wiederherstellbares Backup und listet, was auf dem Server gelöscht werden sollte."
+        ],
+        "en": [
+          "Hidden files and developer folders (e.g. .git) are no longer served by the web server – including subfolders such as /squad-commander/.",
+          "The ship database maintained on the server is no longer overwritten by an older local copy during a release.",
+          "New release action “Prune”: cleans up the local website folder, moves unneeded files into a restorable backup and lists what should be deleted on the server."
+        ]
+      }
+    },
     {
       "version": "0.10.73-beta",
       "date": "2026-09-28",
