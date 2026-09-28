@@ -6,7 +6,7 @@
     "englishName": "Simplified Chinese",
     "locale": "zh-CN",
     "direction": "ltr",
-    "packVersion": "0.10.72-beta"
+    "packVersion": "0.10.73-beta"
   },
   "translations": {
     "navHeader": "菜单",
@@ -230,6 +230,15 @@
     "logEventSet": "行动事件已设置为：",
     "logStatus": "行动状态已更改为：",
     "logLogoUploaded": "战术页眉资源：自定义徽标已上传并同步。",
+    "promptUserId": "请输入新的用户 ID：",
+    "titleUserId": "点击修改用户 ID",
+    "logLogoInvalid": "页眉：该文件无法作为图片读取。",
+    "logStorageFull": "存储空间已满：最近的更改无法永久保存在浏览器中。",
+    "promptOrgaName": "请输入组织名称：",
+    "logOrgaName": "组织名称已更改为：",
+    "orgaNamePlaceholder": "组织名称",
+    "titleOrgaName": "点击修改组织名称",
+    "titleOrgaLogo": "更改组织徽标",
     "logNav": "已切换到视图：",
     "logDbInit": "本地舰船数据库已初始化（可用舰船）：",
     "logApiRun": "正在尝试在线同步...",

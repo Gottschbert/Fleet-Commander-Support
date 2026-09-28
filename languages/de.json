@@ -6,7 +6,7 @@
     "englishName": "German",
     "locale": "de-DE",
     "direction": "ltr",
-    "packVersion": "0.10.72-beta"
+    "packVersion": "0.10.73-beta"
   },
   "translations": {
     "navHeader": "Menü",
@@ -230,6 +230,15 @@
     "logEventSet": "Operations-Event gesetzt auf: ",
     "logStatus": "Operations-Status geändert auf: ",
     "logLogoUploaded": "Header: Eigenes Flotten-Logo hochgeladen und angewendet.",
+    "promptUserId": "Bitte neue User-ID eingeben:",
+    "titleUserId": "Klicken zum Ändern der User-ID",
+    "logLogoInvalid": "Header: Die Datei konnte nicht als Bild gelesen werden.",
+    "logStorageFull": "Speicher voll: Die letzte Änderung konnte nicht dauerhaft im Browser gespeichert werden.",
+    "promptOrgaName": "Bitte Orga-Namen eingeben:",
+    "logOrgaName": "Orga-Name geändert auf: ",
+    "orgaNamePlaceholder": "ORGA NAME",
+    "titleOrgaName": "Klicken zum Ändern des Orga-Namens",
+    "titleOrgaLogo": "Organisationslogo ändern",
     "logNav": "Navigiert zu Bereich: ",
     "logDbInit": "Lokale Schiffsdatenbank initialisiert (Hulls aktiv): ",
     "logApiRun": "Starte Live-Datenabgleich...",

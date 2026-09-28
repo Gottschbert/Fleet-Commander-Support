@@ -6,7 +6,7 @@
     "englishName": "English",
     "locale": "en-US",
     "direction": "ltr",
-    "packVersion": "0.10.72-beta"
+    "packVersion": "0.10.73-beta"
   },
   "translations": {
     "navHeader": "Menu",
@@ -230,6 +230,15 @@
     "logEventSet": "Operation Event set to: ",
     "logStatus": "Operation Status shifted to: ",
     "logLogoUploaded": "Tactical Header Asset: Custom Logo uploaded and mirrored.",
+    "promptUserId": "Please enter a new User ID:",
+    "titleUserId": "Click to change the User ID",
+    "logLogoInvalid": "Header: the file could not be read as an image.",
+    "logStorageFull": "Storage full: the last change could not be saved permanently in the browser.",
+    "promptOrgaName": "Please enter the org name:",
+    "logOrgaName": "Org name changed to: ",
+    "orgaNamePlaceholder": "ORG NAME",
+    "titleOrgaName": "Click to change the org name",
+    "titleOrgaLogo": "Change organization logo",
     "logNav": "Navigated to view context: ",
     "logDbInit": "Local ship database initialized (active hulls): ",
     "logApiRun": "Attempting live sync...",

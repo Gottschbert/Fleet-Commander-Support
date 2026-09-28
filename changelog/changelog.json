@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T15:30:00+02:00",
+  "updatedAt": "2026-09-28T16:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.73-beta",
+      "date": "2026-09-28",
+      "category": "fixed",
+      "title": {
+        "de": "Header-Logo, Archiv-Button & Farbklassen-Prüfung",
+        "en": "Header Logo, Archive Button & Color-Class Check"
+      },
+      "changes": {
+        "de": [
+          "Logo-Upload im Kopfbereich repariert: Große Bilder überschritten den Browserspeicher, danach wurden auch User-ID und Name nicht mehr übernommen. Logos werden jetzt automatisch auf Header-Größe (max. 256 px) verkleinert; ungültige Dateien werden gemeldet.",
+          "Ist der Browserspeicher dennoch voll, erscheint ein Hinweis in der Konsole, und die Anzeige wird trotzdem aktualisiert.",
+          "Eingabedialoge und Hinweise für User-ID, Name und Logo sind jetzt vollständig in Deutsch, Englisch und Chinesisch übersetzt.",
+          "Im Operationsarchiv hat der Button „Laden“ wieder einen sichtbaren Hintergrund in der Akzentfarbe; die Archiveinträge haben wieder ihren dunklen Hintergrund.",
+          "Neue automatische Prüfung in den Quality Gates: Jede im Markup oder JavaScript verwendete Farbklasse muss im CSS vorhanden sein. Fehlende Klassen – Ursache der weißen Rahmen – fallen damit vor dem Release auf."
+        ],
+        "en": [
+          "Header logo upload fixed: large images exceeded browser storage, after which User ID and name changes were no longer applied either. Logos are now scaled down automatically to header size (max. 256 px); invalid files are reported.",
+          "If browser storage is still full, the console shows a notice and the display is updated anyway.",
+          "Input dialogs and tooltips for User ID, name and logo are now fully translated into German, English and Chinese.",
+          "In the operation archive, the “Load” button has a visible accent-colored background again, and archive entries have their dark background back.",
+          "New automatic check in the quality gates: every color class used in markup or JavaScript must exist in the CSS. Missing classes – the cause of the white borders – are now caught before a release."
+        ]
+      }
+    },
     {
       "version": "0.10.72-beta",
       "date": "2026-09-28",
