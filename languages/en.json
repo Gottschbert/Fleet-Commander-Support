@@ -6,7 +6,7 @@
     "englishName": "English",
     "locale": "en-US",
     "direction": "ltr",
-    "packVersion": "0.10.74-beta"
+    "packVersion": "0.10.75-beta"
   },
   "translations": {
     "navHeader": "Menu",
@@ -20,7 +20,7 @@
     "statCrew": "Pilots",
     "statSquads": "Open Stations",
     "dashTitle": "Dashboard",
-    "dashDesc": "Welcome to the universal fleet command interface of the Fleet Commander. Coordinate ships, squadrons, and crew deployments in real-time.",
+    "dashDesc": "Plan your operation here: add your crew, set up squadrons and ships, and fill every seat. The fleet overview always shows who sits where and what is still open.",
     "eventLabel": "Event & Operation Date",
     "eventBtn": "Apply",
     "crewTitle": "Player Registration",

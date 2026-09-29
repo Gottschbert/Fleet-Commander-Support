@@ -6,7 +6,7 @@
     "englishName": "German",
     "locale": "de-DE",
     "direction": "ltr",
-    "packVersion": "0.10.74-beta"
+    "packVersion": "0.10.75-beta"
   },
   "translations": {
     "navHeader": "Menü",
@@ -20,7 +20,7 @@
     "statCrew": "Piloten",
     "statSquads": "Offene Stationen",
     "dashTitle": "Dashboard",
-    "dashDesc": "Willkommen im universellen Flotten-Interface des Fleet Commanders. Hier koordinierst du Schiffe, Squadrons und Crew-Mitglieder in Echtzeit.",
+    "dashDesc": "Plane hier deinen Einsatz: Crew erfassen, Squadrons und Schiffe anlegen, Positionen besetzen. Die Flottenübersicht zeigt jederzeit, wer wo sitzt und was noch offen ist.",
     "eventLabel": "Event & Operations-Datum",
     "eventBtn": "Setzen",
     "crewTitle": "Spieler Registrierung",

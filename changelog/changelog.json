@@ -1,7 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T17:00:00+02:00",
+  "updatedAt": "2026-09-29T12:00:00+02:00",
   "entries": [
+    {
+      "version": "0.10.75-beta",
+      "date": "2026-09-29",
+      "category": "fixed",
+      "title": {
+        "de": "Smartphone-Kopfzeile, Menü und Dashboard-Text",
+        "en": "Phone Header, Menu and Dashboard Text"
+      },
+      "changes": {
+        "de": [
+          "Auf Smartphones überlagerte der App-Wechsel-Schieber die User-ID. Schieber, Sprache und Farbwahl stehen jetzt in einer eigenen Zeile.",
+          "Das Produktlogo erschien auf kleinen Smartphones zusätzlich als verirrte Zeile unter der Kopfzeile; es wird dort jetzt ausgeblendet.",
+          "Das Aufklappmenü auf Smartphones und Tablets war teils englisch („Deployment“, „Configuration“) und wurde nicht übersetzt. Es folgt jetzt der gewählten Sprache.",
+          "Der Einleitungstext im Dashboard beschreibt jetzt sachlich, was man dort tut, statt von einem „universellen Interface in Echtzeit“ zu sprechen."
+        ],
+        "en": [
+          "On phones, the app switch slider covered the User ID. Slider, language and color picker now sit on their own row.",
+          "On small phones the product logo also appeared as a stray row below the header; it is now hidden there.",
+          "The phone/tablet drop-down menu was partly hard-coded in English and did not follow the language setting. It now uses the selected language.",
+          "The dashboard introduction now plainly describes what you do there instead of promising a “universal real-time interface”."
+        ]
+      }
+    },
     {
       "version": "0.10.74-beta",
       "date": "2026-09-28",

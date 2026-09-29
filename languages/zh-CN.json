@@ -6,7 +6,7 @@
     "englishName": "Simplified Chinese",
     "locale": "zh-CN",
     "direction": "ltr",
-    "packVersion": "0.10.74-beta"
+    "packVersion": "0.10.75-beta"
   },
   "translations": {
     "navHeader": "菜单",
@@ -20,7 +20,7 @@
     "statCrew": "飞行员",
     "statSquads": "空缺岗位",
     "dashTitle": "仪表盘",
-    "dashDesc": "欢迎使用 Fleet Commander 通用舰队指挥界面。在这里实时协调舰船、中队和船员部署。",
+    "dashDesc": "在这里规划你的行动：录入成员，创建中队和舰船，安排每个岗位。舰队总览随时显示谁在哪个位置以及还有哪些空缺。",
     "eventLabel": "活动与行动日期",
     "eventBtn": "应用",
     "crewTitle": "玩家登记",
